@@ -1,0 +1,56 @@
+spring:
+  application:
+    name: xyzp
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      enabled: true # 开启文件上传
+      file-size-threshold: 2KB # 文件写入磁盘的阈值
+      max-file-size: 100MB
+      max-request-size: 215MB # 最大请求值大小
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/campusrecruitment?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+
+file:
+  prefix: F:\files\
+
+mybatis-plus:
+  mapper-locations: classpath*:mapper/*Mapper.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+---
+spring:
+  profiles: dev
+server:
+  port: 8080
+eureka:
+  client:
+    service-url:
+       defaultZone: http://admin:admin@127.0.0.1:8761/eureka/
+
+---
+spring:
+  profiles: test
+server:
+  port: 8081
+eureka:
+  client:
+    service-url:
+       defaultZone: http://admin:admin@127.0.0.1:8761/eureka/
+
+---
+spring:
+  profiles: pro
+server:
+  port: 8082
+eureka:
+  client:
+    service-url:
+       defaultZone: http://admin:admin@127.0.0.1:8761/eureka/

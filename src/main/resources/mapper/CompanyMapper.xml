@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zbdx.xyzp.mapper.CompanyMapper">
+
+    <select id="getCompany" resultType="com.zbdx.xyzp.model.dto.CompanyDTO">
+        select * from company
+    </select>
+
+    <select id="pageCompany" resultType="com.zbdx.xyzp.model.dto.CompanyDTO">
+        select * from company
+        where 1=1
+        <if test="param.companyName != null and param.companyName !=''">
+            and company_name like concat('%' , #{param.companyName} , '%')
+        </if>
+        <if test="param.companyType != null and param.companyType !=''">
+            and company_type = #{param.companyType}
+        </if>
+        <if test="param.location != null and param.location !=''">
+            and location = #{param.location}
+        </if>
+    </select>
+
+    <select id="getCompanyName" parameterType="com.zbdx.xyzp.model.dto.CompanyDTO" resultType="java.util.HashMap">
+        select distinct company_name from company group by company_name
+    </select>
+
+    <select id="getCompanyType" parameterType="com.zbdx.xyzp.model.dto.CompanyDTO" resultType="java.util.HashMap">
+        select distinct company_type from company group by company_type
+    </select>
+
+    <select id="getLocation" parameterType="com.zbdx.xyzp.model.dto.CompanyDTO" resultType="java.util.HashMap">
+        select distinct location from company group by location
+    </select>
+
+
+</mapper>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zbdx.xyzp.mapper.ApplicationMapper">
+    <select id="selectUsername" resultType="com.zbdx.xyzp.model.dto.ApplicationDTO">
+        select username from application where username = #{username}
+    </select>
+
+    <insert id="addApplication" parameterType="com.zbdx.xyzp.model.entity.Application">
+        insert into application(username ,application_position ,status , role_type) values (#{username} , #{applicationPosition}, #{status}, #{roleType})
+    </insert>
+
+    <select id="pageApplication" resultType="com.zbdx.xyzp.model.dto.ApplicationDTO">
+        select * from application
+        where 1=1
+        <if test="param.username != null and param.username != ''">
+            and username like concat('%' , #{param.username} , '%')
+        </if>
+        <if test="param.status != null and param.status != ''">
+            and status = #{param.status}
+        </if>
+        <if test="param.applicationPosition != null and param.applicationPosition != ''">
+            and application_position = #{param.applicationPosition}
+        </if>
+    </select>
+
+    <select id="getApplicationPositionForA" parameterType="com.zbdx.xyzp.model.dto.ApplicationDTO" resultType="java.util.HashMap">
+        select distinct application_position from application group by application_position
+    </select>
+
+    <select id="getStatus" parameterType="com.zbdx.xyzp.model.dto.ApplicationDTO" resultType="java.util.HashMap">
+        select distinct status from application group by status
+    </select>
+
+    <select id="getUsernameAndApplicationPosition" resultType="com.zbdx.xyzp.model.dto.ApplicationDTO">
+        select * from application where username= #{username} and application_position= #{applicationPosition};
+    </select>
+</mapper>

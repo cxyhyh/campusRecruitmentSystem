@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zbdx.xyzp.mapper.SkillMapper">
+    <select id="getSkill" resultType="com.zbdx.xyzp.model.dto.SkillDTO">
+        select * from skill
+    </select>
+
+    <select id="pageSkill" resultType="com.zbdx.xyzp.model.dto.SkillDTO">
+        select * from skill
+        where 1=1
+        <if test="param.realName != null and param.realName != ''">
+            and real_name = #{param.realName}
+        </if>
+        <if test="param.englishSkill != null and param.englishSkill != ''">
+            and english_skill = #{param.englishSkill}
+        </if>
+        <if test="param.computerSkill != null and param.computerSkill != ''">
+            and computer_skill = #{param.computerSkill}
+        </if>
+        <if test="param.appliedPosition != null and param.appliedPosition != ''">
+            and applied_position = #{param.appliedPosition}
+        </if>
+    </select>
+
+    <select id="getEnglishSkill" parameterType="com.zbdx.xyzp.model.dto.SkillDTO" resultType="java.util.HashMap">
+        select distinct english_skill from skill group by english_skill
+    </select>
+
+    <select id="getComputerSkill" parameterType="com.zbdx.xyzp.model.dto.SkillDTO" resultType="java.util.HashMap">
+        select distinct computer_skill from skill group by computer_skill
+    </select>
+
+    <select id="getAppliedPosition" parameterType="com.zbdx.xyzp.model.dto.SkillDTO" resultType="java.util.HashMap">
+        select distinct applied_position from skill group by applied_position
+    </select>
+</mapper>

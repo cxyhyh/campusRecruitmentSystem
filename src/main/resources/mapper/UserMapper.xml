@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zbdx.xyzp.mapper.UserMapper">
+    <select id="getUser" resultType="com.zbdx.xyzp.model.dto.UserDTO">
+        select u.* , r.role_type from user u
+        left join role r
+        on u.type_key = r.type_key
+    </select>
+    <select id="getList" resultType="com.zbdx.xyzp.model.dto.UserDTO">
+        select u.* , r.role_type from user u
+        left join role r
+        on u.type_key = r.type_key
+    </select>
+    <select id="selectByName" resultType="com.zbdx.xyzp.model.dto.UserDTO">
+        select * from user where
+        username = #{username}
+    </select>
+    <select id="selectByPassword" resultType="com.zbdx.xyzp.model.dto.UserDTO">
+        select * from user where
+        password = #{password}
+    </select>
+    <select id="pageUser" resultType="com.zbdx.xyzp.model.dto.UserDTO">
+        select u.* , r.role_type from user u
+        left join role r
+        on u.type_key = r.type_key
+        where 1=1
+        <if test="param.username != null and param.username != ''">
+            and u.username like concat('%' , #{param.username} , '%')
+        </if>
+        <if test="param.roleType != null and param.roleType != ''">
+            and r.role_type = #{param.roleType}
+        </if>
+        <if test="param.realName != null and param.realName != ''">
+            and u.real_name like concat('%' , #{param.realName} , '%')
+        </if>
+        <if test="param.education != null and param.education != ''">
+            and u.education = #{param.education}
+        </if>
+    </select>
+    <select id="getUsername" parameterType="com.zbdx.xyzp.model.dto.UserDTO" resultType="java.util.HashMap">
+        select distinct username from user group by username
+    </select>
+    <select id="getRealNamePuTong" parameterType="com.zbdx.xyzp.model.dto.UserDTO" resultType="java.util.HashMap">
+        select distinct real_name from user where type_key = 0  group by real_name
+    </select>
+
+    <select id="getUserRoleType" parameterType="com.zbdx.xyzp.model.dto.UserDTO" resultType="java.util.HashMap">
+        select distinct r.role_type
+        from user u
+        left join role r
+        on u.type_key = r.type_key group by role_type
+    </select>
+
+    <select id="getRealName" parameterType="com.zbdx.xyzp.model.dto.UserDTO" resultType="java.util.HashMap">
+        select distinct real_name from user group by real_name
+    </select>
+
+    <select id="getEducation" parameterType="com.zbdx.xyzp.model.dto.UserDTO" resultType="java.util.HashMap">
+        select distinct education from user where type_key = 0 group by education
+    </select>
+
+    <select id="selectRoleTypeByName" parameterType="com.zbdx.xyzp.model.dto.UserDTO" resultType="java.util.HashMap">
+        select r.role_type from user u
+        left join role r
+        on u.type_key = r.type_key
+        where u.username = #{username}
+    </select>
+    <select id="getUserAndSkill" resultType="com.zbdx.xyzp.model.dto.UserDTO">
+        select a.status,b.* from application a
+        RIGHT JOIN
+        (select u.real_name,u.sex,u.idCard,u.birth,u.nature,u.hometown,u.education,
+        u.college,u.mobilePhone,u.email,u.address,u.username,
+        s.applied_position,s.english_skill,s.computer_skill,s.main_skill from user u
+        left join skill s
+        on u.real_name = s.real_name
+        where type_key = 0) b
+        on a.username = b.username
+        where 1=1
+        <if test="param.appliedPosition != null and param.appliedPosition != ''">
+            and s.applied_position = #{param.appliedPosition}
+        </if>
+        <if test="param.realName != null and param.realName != ''">
+            and b.real_name = #{param.realName}
+        </if>
+        <if test="param.education != null and param.education != ''">
+            and b.education = #{param.education}
+        </if>
+    </select>
+
+</mapper>

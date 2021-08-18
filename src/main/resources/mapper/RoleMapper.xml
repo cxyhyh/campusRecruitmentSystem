@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zbdx.xyzp.mapper.RoleMapper">
+    <resultMap id="Role" type="com.zbdx.xyzp.model.entity.Role">
+        <id property="roleId" column="role_id"/>
+        <result property="roleType" column="role_type"/>
+        <result property="typeKey" column="type_key"/>
+    </resultMap>
+    <select id="getRole" resultType="com.zbdx.xyzp.model.dto.RoleDTO">
+        select * from role
+    </select>
+
+    <select id="pageRole" resultType="com.zbdx.xyzp.model.dto.RoleDTO">
+        select * from role
+        where 1=1
+        <if test="param.roleType != null and param.roleType !=''">
+            and role_type = #{param.roleType}
+        </if>
+    </select>
+
+    <select id="getRoleType" parameterType="com.zbdx.xyzp.model.dto.RoleDTO" resultType="java.util.HashMap">
+        select distinct role_type from role group by role_type
+    </select>
+
+
+
+</mapper>

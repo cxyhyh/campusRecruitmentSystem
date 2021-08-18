@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zbdx.xyzp.mapper.JianliMapper">
+    <select id="getJianli" resultType="com.zbdx.xyzp.model.dto.JianLiDTO">
+        select * from jianli
+    </select>
+    <select id="pageJianLi" resultType="com.zbdx.xyzp.model.dto.JianLiDTO">
+        select * from jianli
+        where 1=1
+        <if test="param.username != null and param.username != ''">
+            and username = #{param.username}
+        </if>
+        <if test="param.fileName != null and param.fileName != ''">
+            and file_name like concat('%' , #{param.fileName} , '%')
+        </if>
+        <if test="param.applicationPosition != null and param.applicationPosition != ''">
+            and application_position = #{param.applicationPosition}
+        </if>
+    </select>
+    <update id="updateUsernameById">
+        update jianli set username = #{username} , application_position= #{applicationPosition} where id = #{jianliId}
+    </update>
+
+    <select id="getMaxJianliId" resultType="java.lang.Integer">
+        select MAX(jianli_id) from jianli where file_name = #{fileName}
+    </select>
+
+    <select id="getNewFileNameByUsername" resultType="com.zbdx.xyzp.model.dto.JianLiDTO">
+        select  file_name from jianli where username = #{username} order by jianli_id desc limit 1
+    </select>
+
+    <select id="getUserName" parameterType="com.zbdx.xyzp.model.dto.JianLiDTO" resultType="java.util.HashMap">
+        select distinct username from jianli group by username
+    </select>
+
+    <select id="getApplicationPosition" parameterType="com.zbdx.xyzp.model.dto.JianLiDTO" resultType="java.util.HashMap">
+        select distinct application_position from jianli group by application_position
+    </select>
+
+
+</mapper>
