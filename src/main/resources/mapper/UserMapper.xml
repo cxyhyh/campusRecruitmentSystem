@@ -6,6 +6,7 @@
         left join role r
         on u.type_key = r.type_key
     </select>
+
     <select id="getList" resultType="com.zbdx.xyzp.model.dto.UserDTO">
         select u.* , r.role_type from user u
         left join role r
