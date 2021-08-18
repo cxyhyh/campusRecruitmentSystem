@@ -11,6 +11,7 @@
         left join role r
         on u.type_key = r.type_key
     </select>
+
     <select id="selectByName" resultType="com.zbdx.xyzp.model.dto.UserDTO">
         select * from user where
         username = #{username}
