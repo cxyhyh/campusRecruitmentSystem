@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.zbdx.xyzp.model.dto.CompanyDTO;
 import com.zbdx.xyzp.model.dto.UserDTO;
 import com.zbdx.xyzp.model.entity.Company;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -23,4 +24,7 @@ public interface CompanyService extends IService<Company> {
 
     List<Map<String , Object>> getLocation();
 
+    Map<String, Object> importJob(List<Map<String, Object>> list);
+
+    XSSFWorkbook exportJob(Map<String, Object> param);
 }

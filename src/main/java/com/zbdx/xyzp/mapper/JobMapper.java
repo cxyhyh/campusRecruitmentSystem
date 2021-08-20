@@ -25,4 +25,6 @@ public interface JobMapper extends BaseMapper<Job> {
     List<Map<String , Object>> getEducationRequirement();
 
     List<JobDTO> jobAndCompanyDetailByjobName(String jobName);
+
+    List<JobDTO> getList(Map<String, Object> param);
 }

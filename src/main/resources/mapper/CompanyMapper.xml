@@ -5,7 +5,9 @@
     <select id="getCompany" resultType="com.zbdx.xyzp.model.dto.CompanyDTO">
         select * from company
     </select>
-
+    <select id="getList" resultType="com.zbdx.xyzp.model.dto.CompanyDTO">
+        select * from company
+    </select>
     <select id="pageCompany" resultType="com.zbdx.xyzp.model.dto.CompanyDTO">
         select * from company
         where 1=1

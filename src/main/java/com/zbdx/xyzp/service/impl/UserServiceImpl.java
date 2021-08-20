@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.zbdx.xyzp.config.CommonConfig;
-import com.zbdx.xyzp.constant.UserConstant;
+import com.zbdx.xyzp.constant.Constant;
 import com.zbdx.xyzp.mapper.UserMapper;
 import com.zbdx.xyzp.model.dto.UserDTO;
 import com.zbdx.xyzp.model.entity.User;
@@ -17,7 +17,6 @@ import com.zbdx.xyzp.util.DateTimeUtils;
 import com.zbdx.xyzp.util.RegexUtils;
 import com.zbdx.xyzp.util.Result;
 import com.zbdx.xyzp.util.ValidUtils;
-import com.zhxd.common.constants.CommonConstant;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Row;
@@ -40,8 +39,6 @@ import java.util.Map;
 @Slf4j
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
-
-    public static final String EXCEL_TEMP_PATH = "classpath:template/static/excel/";
 
     @Autowired
     private UserMapper userMapper;
@@ -156,6 +153,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             }
         }
         if (!error.isEmpty()) {
+            map.put("code",400);
             map.put("status", "fail");
             map.put("message", error);
             return map;
@@ -184,7 +182,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
                     row.createCell(cellIndex++).setCellValue(obj.getRoleType());
                     row.createCell(cellIndex++).setCellValue(obj.getRealName());
                     row.createCell(cellIndex++).setCellValue(obj.getSex());
-                    row.createCell(cellIndex++).setCellValue(obj.getBirth());
+                    row.createCell(cellIndex++).setCellValue(DateTimeUtils.DateToStr(obj.getBirth()));
                     row.createCell(cellIndex++).setCellValue(obj.getNature());
                     row.createCell(cellIndex++).setCellValue(obj.getIdCard());
                     row.createCell(cellIndex++).setCellValue(obj.getHometown());
@@ -209,10 +207,10 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
     }
 
-    private XSSFWorkbook copyTemplate(String resourceName) {
+    public XSSFWorkbook copyTemplate(String resourceName) {
         XSSFWorkbook wb = null;
         try {
-            String realPath = EXCEL_TEMP_PATH + resourceName;
+            String realPath = Constant.EXCEL_TEMP_PATH + resourceName;
             ResourceLoader resourceLoader = new DefaultResourceLoader();
             String tmpFileName = commonConfig.getExportTmpPath() + File.separator + DateTimeUtils.stamp(new Date())
                     + File.separator + resourceName.replace("模板-", "");
@@ -238,7 +236,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     private boolean isIdCardExist(String idCard) {
         boolean flag = false;
         QueryWrapper<User> query = new QueryWrapper<>();
-        query.eq(CommonConstant.DEL_FLAG, CommonConstant.STATUS_NORMAL);
         query.eq("idCard", idCard);
         List list = this.list(query);
         if (list != null && list.size() > 0) {
@@ -250,7 +247,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     private boolean isMobilePhoneExist(String mobilePhone) {
         boolean flag = false;
         QueryWrapper<User> query = new QueryWrapper<>();
-        query.eq(CommonConstant.DEL_FLAG, CommonConstant.STATUS_NORMAL);
         query.eq("mobilePhone", mobilePhone);
         List list = this.list(query);
         if (list != null && list.size() > 0) {
@@ -262,7 +258,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     private boolean isUserExist(String username) {
         boolean flag = false;
         QueryWrapper<User> query = new QueryWrapper<>();
-        query.eq(CommonConstant.DEL_FLAG, CommonConstant.STATUS_NORMAL);
         query.eq("username", username);
         List list = this.list(query);
         if (list != null && list.size() > 0) {
@@ -277,15 +272,17 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         StringBuffer ret = new StringBuffer("站室批量入库情况：");
         try {
             for (User user : list) {
-                user.setTypeKey(UserConstant.TYPEKEY);
-                user.setPassword(UserConstant.PASSWORD);
+                user.setTypeKey(Constant.TYPEKEY);
+                user.setPassword(Constant.PASSWORD);
                 user.setRegistTime(new Date());
                 boolean save = this.save(user);
                 if (save) {
                     retMap.put("result", list);
+                    retMap.put("code",200);
                     retMap.put("status", "success");
                 } else {
                     retMap.put("result", save);
+                    retMap.put("code",400);
                     retMap.put("status", "fail");
                     retMap.put("message", "批量入库失败");
                 }

@@ -4,6 +4,9 @@
     <select id="getJob" resultType="com.zbdx.xyzp.model.dto.JobDTO">
         select * from job
     </select>
+    <select id="getList" resultType="com.zbdx.xyzp.model.dto.JobDTO">
+        select * from job
+    </select>
     <select id="pageJob" resultType="com.zbdx.xyzp.model.dto.JobDTO">
         select * from job
         where 1=1

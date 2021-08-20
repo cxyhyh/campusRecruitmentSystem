@@ -143,7 +143,7 @@ public class UserController {
 
     @ApiOperation("导入用户信息")
     @PostMapping("/importUser")
-    public Response importUser(@RequestBody Map<String, Object> param) {
+    public Result importUser(@RequestBody Map<String, Object> param) {
         String logStr = "importUser";
         Map<String, Object> retMap = Maps.newHashMap();
         try {
@@ -152,13 +152,13 @@ public class UserController {
                 log.error("{} 开始：", logStr);
                 List<Map<String, Object>> list = (List<Map<String, Object>>) param.get("list");
                 retMap = userService.importUser(list);
-                return Response.success(retMap);
+                return Result.success(retMap);
             } else {
-                return Response.failure("未包含必要的参数");
+                return Result.fail("未包含必要的参数");
             }
         } catch (Exception e) {
             log.error("{} 报错：{}", logStr, e);
-            return Response.failure("所选excel文件数据不规范！！！");
+            return Result.fail("所选excel文件数据不规范！！！");
         }
     }
 

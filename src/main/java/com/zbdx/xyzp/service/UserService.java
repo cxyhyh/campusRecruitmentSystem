@@ -41,4 +41,6 @@ public interface UserService extends IService<User> {
     Map<String, Object> importUser(List<Map<String, Object>> list);
 
     XSSFWorkbook exportUser(Map<String, Object> param);
+
+    XSSFWorkbook copyTemplate(String resourceName);
 }

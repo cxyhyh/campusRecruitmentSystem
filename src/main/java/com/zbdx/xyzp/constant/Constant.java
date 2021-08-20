@@ -3,10 +3,10 @@ package com.zbdx.xyzp.constant;
 /**
  * @Author hanyuhao
  * @PackageName com.zbdx.xyzp.constant
- * @Class UserConstant
+ * @Class Constant
  * @Date 2021/8/18 15:00
  */
-public class UserConstant {
+public class Constant {
 
     /**
      * 默认密码
@@ -19,5 +19,6 @@ public class UserConstant {
     public static final Integer TYPEKEY = 0;
 
 
+    public static final String EXCEL_TEMP_PATH = "classpath:template/static/excel/";
 
 }
