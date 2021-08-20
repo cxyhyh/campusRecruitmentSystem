@@ -11,6 +11,7 @@ import com.zbdx.xyzp.config.CommonConfig;
 import com.zbdx.xyzp.constant.Constant;
 import com.zbdx.xyzp.mapper.UserMapper;
 import com.zbdx.xyzp.model.dto.UserDTO;
+import com.zbdx.xyzp.model.entity.Company;
 import com.zbdx.xyzp.model.entity.User;
 import com.zbdx.xyzp.service.UserService;
 import com.zbdx.xyzp.util.DateTimeUtils;
@@ -121,6 +122,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             message = ValidUtils.judgeKongParam(message, param, "出生日期", "birth");
             message = ValidUtils.judgeKongParam(message, param, "身份证号", "idCard");
             message = ValidUtils.judgeKongParam(message, param, "联系电话", "mobilePhone");
+            message = ValidUtils.judgeKongParam(message, param, "电子邮箱", "email");
 
             if (param.get("username") != null){
                 boolean isExistUser = isUserExist(param.get("username").toString());
@@ -148,6 +150,12 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
                     message.append("@phone:手机号格式错误;");
                 }
             }
+            if (param.get("email") != null){
+                boolean isExistEmail = isEmailExist(param.get("email").toString());
+                if (isExistEmail){
+                    message.append("@email:电子邮箱已存在");
+                }
+            }
             if (message.toString().contains("@")) {
                 error.add(message.toString());
             }
@@ -160,6 +168,17 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         }
         List<User> resultList = JSON.parseArray(JSON.toJSONString(list), User.class);
         return importBatchUser(resultList);
+    }
+
+    private boolean isEmailExist(String email) {
+        boolean flag = false;
+        QueryWrapper<User> query = new QueryWrapper<>();
+        query.eq("email", email);
+        List list = this.list(query);
+        if (list != null && list.size() > 0) {
+            flag = true;
+        }
+        return flag;
     }
 
     @Override

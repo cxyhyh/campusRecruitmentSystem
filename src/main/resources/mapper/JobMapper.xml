@@ -38,4 +38,7 @@
         on j.belong_company = c.company_name
         where job_name = #{jobName}
     </select>
+    <select id="getJobNameByBelongCompanyAndJobName" resultType="java.lang.String">
+        select DISTINCT job_name from job where belong_company = #{belongCompany} and job_name = #{jobName}
+    </select>
 </mapper>

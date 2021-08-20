@@ -24,7 +24,7 @@ public interface CompanyService extends IService<Company> {
 
     List<Map<String , Object>> getLocation();
 
-    Map<String, Object> importJob(List<Map<String, Object>> list);
+    Map<String, Object> importCompany(List<Map<String, Object>> list);
 
     XSSFWorkbook exportJob(Map<String, Object> param);
 }

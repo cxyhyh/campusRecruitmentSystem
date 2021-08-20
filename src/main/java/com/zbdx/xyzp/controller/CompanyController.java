@@ -103,7 +103,7 @@ public class CompanyController {
             if (param.containsKey("list")) {
                 log.error("{} 开始：", logStr);
                 List<Map<String, Object>> list = (List<Map<String, Object>>) param.get("list");
-                retMap = companyService.importJob(list);
+                retMap = companyService.importCompany(list);
                 return Result.success(retMap);
             } else {
                 return Result.fail("未包含必要的参数");

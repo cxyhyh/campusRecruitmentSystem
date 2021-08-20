@@ -6,9 +6,11 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
+import com.zbdx.xyzp.constant.Constant;
 import com.zbdx.xyzp.mapper.JobMapper;
 import com.zbdx.xyzp.model.dto.JobDTO;
 import com.zbdx.xyzp.model.entity.Job;
+import com.zbdx.xyzp.model.entity.User;
 import com.zbdx.xyzp.service.JobService;
 import com.zbdx.xyzp.service.UserService;
 import com.zbdx.xyzp.util.DateTimeUtils;
@@ -20,7 +22,10 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
+import javax.xml.soap.SAAJResult;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -126,6 +131,14 @@ public class JobServiceImpl extends ServiceImpl<JobMapper, Job> implements JobSe
             message = ValidUtils.judgeDateParam(message, param, "发布时间", "createTime");
             message = ValidUtils.judgeKongParam(message, param, "所属公司", "belongCompany");
 
+            String isExistJob = this.jobMapper.getJobNameByBelongCompanyAndJobName(param.get("jobName").toString(),param.get("belongCompany").toString());
+            if (!StringUtils.isEmpty(isExistJob)){
+                message.append(param.get("belongCompany")+"@belongCompany下已有职位:"+param.get("jobName"));
+            }
+            if (message.toString().contains("@")) {
+                error.add(message.toString());
+            }
+
         }
         if (!error.isEmpty()) {
             map.put("code",400);
@@ -140,27 +153,28 @@ public class JobServiceImpl extends ServiceImpl<JobMapper, Job> implements JobSe
     private Map<String, Object> importBatchJob(List<Job> list) {
         Map<String, Object> retMap = Maps.newHashMap();
         StringBuffer ret = new StringBuffer("职位信息批量入库情况：");
-        try {
-            for (Job job : list) {
-                boolean save = this.save(job);
-                if (save) {
-                    retMap.put("result", list);
-                    retMap.put("code",200);
-                    retMap.put("status", "success");
-                } else {
-                    retMap.put("result", save);
-                    retMap.put("code",400);
-                    retMap.put("status", "fail");
-                    retMap.put("message", "批量入库失败");
+            try {
+                for (Job job : list) {
+                    boolean save = this.save(job);
+                    if (save) {
+                        retMap.put("result", list);
+                        retMap.put("code",200);
+                        retMap.put("status", "success");
+                    } else {
+                        retMap.put("result", save);
+                        retMap.put("code",400);
+                        retMap.put("status", "fail");
+                        retMap.put("message", "批量入库失败");
+                    }
                 }
+                return retMap;
+            } catch (Exception e) {
+                log.error("职位信息导入错误:{}", e);
+                ret.append("职位信息导入错误;");
+                retMap.put("status", "fail");
+                retMap.put("message", ret.toString());
+                return retMap;
             }
-            return retMap;
-        } catch (Exception e) {
-            log.error("职位信息导入错误:{}", e);
-            ret.append("职位信息导入错误;");
-            retMap.put("status", "fail");
-            retMap.put("message", ret.toString());
-            return retMap;
-        }
+
     }
 }
