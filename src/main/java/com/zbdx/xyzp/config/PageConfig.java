@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @MapperScan("com.zbdx.xyzp.mapper")
 public class PageConfig {
-
     /*分页插件*/
     @Bean
     public PaginationInterceptor paginationInterceptor(){

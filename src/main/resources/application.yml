@@ -1,6 +1,6 @@
 spring:
   application:
-    name: xyzp
+    name: CampusRecruitmentSystem
   profiles:
     active: dev
   servlet:

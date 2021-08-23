@@ -8,10 +8,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @MapperScan("com.zbdx.xyzp.mapper")
 @EnableDiscoveryClient
 @SpringBootApplication
-public class XyzpApplication {
+public class CampusRecruitmentSystemApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(XyzpApplication.class, args);
+        SpringApplication.run(CampusRecruitmentSystemApplication.class, args);
     }
 
 }
