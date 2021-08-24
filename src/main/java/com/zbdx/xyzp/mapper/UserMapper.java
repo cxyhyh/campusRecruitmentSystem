@@ -17,7 +17,7 @@ public interface UserMapper extends BaseMapper<User> {
 
     List<UserDTO> selectByName(String username);
 
-    List<UserDTO> selectByPassword(String password);
+    List<UserDTO> selectByPassword(String username,String password) ;
 
     Page<UserDTO> pageUser(Page<UserDTO> page, @Param("param") UserDTO userDTO);
 
@@ -36,4 +36,8 @@ public interface UserMapper extends BaseMapper<User> {
     List<Map<String, Object>> getRealNamePuTong();
 
     List<UserDTO> getList(Map<String, Object> param);
+
+    List<UserDTO> editUserByUsername(String username);
+
+    boolean updatePassword(String username,String password);
 }

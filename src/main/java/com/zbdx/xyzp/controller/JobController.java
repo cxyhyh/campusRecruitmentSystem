@@ -103,7 +103,7 @@ public class JobController {
         String logStr = "importJob";
         Map<String, Object> retMap = Maps.newHashMap();
         try {
-            log.info("导入用户信息：{}", JSONObject.toJSONString(param));
+            log.info("导入职位信息：{}", JSONObject.toJSONString(param));
             if (param.containsKey("list")) {
                 log.error("{} 开始：", logStr);
                 List<Map<String, Object>> list = (List<Map<String, Object>>) param.get("list");

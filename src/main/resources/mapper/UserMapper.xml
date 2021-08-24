@@ -13,13 +13,19 @@
         on u.type_key = r.type_key
     </select>
 
+    <update id="updatePassword" parameterType="java.lang.String">
+        update user
+        set password = #{password}
+        where username = #{username}
+
+    </update>
     <select id="selectByName" resultType="com.zbdx.xyzp.model.dto.UserDTO">
         select * from user where
         username = #{username}
     </select>
     <select id="selectByPassword" resultType="com.zbdx.xyzp.model.dto.UserDTO">
         select * from user where
-        password = #{password}
+        username = #{username} and password = #{password}
     </select>
     <select id="pageUser" resultType="com.zbdx.xyzp.model.dto.UserDTO">
         select u.* , r.role_type from user u
@@ -60,6 +66,10 @@
     <select id="getEducation" parameterType="com.zbdx.xyzp.model.dto.UserDTO" resultType="java.util.HashMap">
         select distinct education from user where type_key = 0 group by education
     </select>
+
+    <update id="editUserByUsername" parameterType="com.zbdx.xyzp.model.entity.User">
+        
+    </update>
 
     <select id="selectRoleTypeByName" parameterType="com.zbdx.xyzp.model.dto.UserDTO" resultType="java.util.HashMap">
         select r.role_type from user u

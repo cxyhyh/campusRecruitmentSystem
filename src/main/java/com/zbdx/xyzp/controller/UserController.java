@@ -3,6 +3,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.google.common.collect.Maps;
+import com.zbdx.xyzp.mapper.UserMapper;
 import com.zbdx.xyzp.model.dto.UserDTO;
 import com.zbdx.xyzp.model.entity.User;
 import com.zbdx.xyzp.service.UserService;
@@ -38,6 +39,8 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+    @Autowired
+    private UserMapper userMapper;
 
     @CrossOrigin
     @ApiOperation("用户登录")
@@ -63,9 +66,8 @@ public class UserController {
 
     @ApiOperation("根据密码名称查询")
     @GetMapping("/selectByPassword")
-    public Result selectByPassword(String password){
-
-        return Result.success(userService.selectByPassword(password));
+    public Result selectByPassword(String username,String password){
+        return Result.success(userService.selectByPassword(username,password));
     }
 
     @ApiOperation("新增用户")
@@ -96,6 +98,19 @@ public class UserController {
         user.setRegistTime(new Date());
         return Result.success(userService.updateById(user));
     }
+
+    @ApiOperation("修改密码")
+    @GetMapping("/updatePassword")
+    public Result updatePassword(String username,String password){
+        return Result.success(userMapper.updatePassword(username,password));
+    }
+
+    @ApiOperation("编辑用户")
+    @PostMapping("/editUser")
+    public Result editUser(@RequestBody User user){
+        return Result.success(userService.saveOrUpdate(user));
+    }
+
 
     @ApiOperation("根据id删除用户")
     @GetMapping("/deleteUser")
@@ -139,6 +154,13 @@ public class UserController {
             Page<UserDTO> page ,UserDTO userDTO
     ){
         return Result.success(userService.getUserAndSkill(page, userDTO));
+    }
+
+
+    @ApiOperation("根据当前用户名修改用户信息")
+    @GetMapping("/editUserByUsername")
+    public Result editUserByUsername(String username){
+        return Result.success(userService.editUserByUsername(username));
     }
 
     @ApiOperation("导入用户信息")

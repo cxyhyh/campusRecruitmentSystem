@@ -20,7 +20,7 @@ public interface UserService extends IService<User> {
 
     Result login(String username, String password);
 
-    List<UserDTO> selectByPassword(String password);
+    List<UserDTO> selectByPassword(String username,String password);
 
     Page<UserDTO> pageUser(Page<UserDTO> page, UserDTO userDTO);
 
@@ -43,4 +43,6 @@ public interface UserService extends IService<User> {
     XSSFWorkbook exportUser(Map<String, Object> param);
 
     XSSFWorkbook copyTemplate(String resourceName);
+
+    List<UserDTO> editUserByUsername(String username);
 }

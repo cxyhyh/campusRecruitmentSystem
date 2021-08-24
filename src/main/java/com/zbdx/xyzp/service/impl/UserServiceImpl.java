@@ -58,8 +58,8 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     }
 
     @Override
-    public List<UserDTO> selectByPassword(String password) {
-        return userMapper.selectByPassword(password);
+    public List<UserDTO> selectByPassword(String password,String username) {
+        return userMapper.selectByPassword(username,password);
     }
 
     @Override
@@ -127,7 +127,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             if (param.get("username") != null){
                 boolean isExistUser = isUserExist(param.get("username").toString());
                 if (isExistUser){
-                    message.append("@username:工作证号已存在");
+                    message.append("@username:用户名已存在");
                 }
             }
             if (param.get("mobilePhone") != null){
@@ -252,6 +252,11 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         }
     }
 
+    @Override
+    public List<UserDTO> editUserByUsername(String username) {
+        return userMapper.editUserByUsername(username);
+    }
+
     private boolean isIdCardExist(String idCard) {
         boolean flag = false;
         QueryWrapper<User> query = new QueryWrapper<>();
@@ -323,7 +328,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         if (list.size() <= 0) {
             return Result.fail(400, "用户不存在，请重新输入或立即注册！！");
         } else {
-            List<UserDTO> list1 = userMapper.selectByPassword(password);
+            List<UserDTO> list1 = userMapper.selectByPassword(username,password);
             if (list1.size() <= 0) {
                 return Result.fail(400, "密码错误！！");
             }

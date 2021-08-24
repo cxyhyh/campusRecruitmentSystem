@@ -131,9 +131,11 @@ public class JobServiceImpl extends ServiceImpl<JobMapper, Job> implements JobSe
             message = ValidUtils.judgeDateParam(message, param, "发布时间", "createTime");
             message = ValidUtils.judgeKongParam(message, param, "所属公司", "belongCompany");
 
-            String isExistJob = this.jobMapper.getJobNameByBelongCompanyAndJobName(param.get("jobName").toString(),param.get("belongCompany").toString());
-            if (!StringUtils.isEmpty(isExistJob)){
-                message.append(param.get("belongCompany")+"@belongCompany下已有职位:"+param.get("jobName"));
+            if (!StringUtils.isEmpty(param.get("jobName"))){
+                String isExistJob = this.jobMapper.getJobNameByBelongCompanyAndJobName(param.get("jobName").toString(),param.get("belongCompany").toString());
+                if (!StringUtils.isEmpty(isExistJob)){
+                    message.append("@jobName:"+param.get("belongCompany")+"下已有该职位"+param.get("jobName"));
+                }
             }
             if (message.toString().contains("@")) {
                 error.add(message.toString());

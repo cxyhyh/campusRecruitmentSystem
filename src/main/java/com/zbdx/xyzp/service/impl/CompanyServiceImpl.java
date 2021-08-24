@@ -91,7 +91,7 @@ public class CompanyServiceImpl extends ServiceImpl<CompanyMapper , Company> imp
             if (param.get("companyName") != null){
                 boolean isExistCompany = isCompanyExist(param.get("companyName").toString());
                 if (isExistCompany){
-                    message.append("@companyName:工作证号已存在");
+                    message.append("@companyName:企业名称已存在");
                 }
             }
             if (param.get("telephone") != null){
