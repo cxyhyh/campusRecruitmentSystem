@@ -40,4 +40,6 @@ public interface UserMapper extends BaseMapper<User> {
     List<UserDTO> editUserByUsername(String username);
 
     boolean updatePassword(String username,String password);
+
+    Integer getNumByRoleType(String roleType);
 }

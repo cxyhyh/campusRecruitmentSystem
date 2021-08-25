@@ -59,6 +59,14 @@
         on u.type_key = r.type_key group by role_type
     </select>
 
+    <select id="getNumByRoleType" parameterType="com.zbdx.xyzp.model.dto.UserDTO" resultType="java.lang.Integer">
+        select count(u.type_key)
+        from user u
+        left join role r
+        on u.type_key = r.type_key
+        where role_type = #{roleType}
+    </select>
+
     <select id="getRealName" parameterType="com.zbdx.xyzp.model.dto.UserDTO" resultType="java.util.HashMap">
         select distinct real_name from user group by real_name
     </select>

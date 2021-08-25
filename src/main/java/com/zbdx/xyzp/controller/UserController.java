@@ -163,6 +163,13 @@ public class UserController {
         return Result.success(userService.editUserByUsername(username));
     }
 
+    @ApiOperation("根据不同用户类型获取人数")
+    @GetMapping("/getRoleTypeNum")
+    public Result getRoleTypeNum(){
+        return Result.success(userService.getRoleTypeNum());
+    }
+
+
     @ApiOperation("导入用户信息")
     @PostMapping("/importUser")
     public Result importUser(@RequestBody Map<String, Object> param) {
@@ -265,4 +272,6 @@ public class UserController {
         }
 
     }
+
+
 }

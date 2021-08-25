@@ -9,6 +9,7 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.zbdx.xyzp.config.CommonConfig;
 import com.zbdx.xyzp.constant.Constant;
+import com.zbdx.xyzp.mapper.RoleMapper;
 import com.zbdx.xyzp.mapper.UserMapper;
 import com.zbdx.xyzp.model.dto.UserDTO;
 import com.zbdx.xyzp.model.entity.Company;
@@ -32,10 +33,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @Slf4j
 @Service
@@ -45,6 +43,8 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     private UserMapper userMapper;
     @Autowired
     private CommonConfig commonConfig;
+    @Autowired
+    private RoleMapper roleMapper;
 
     @Override
     public List<UserDTO> getUser(UserDTO userDTO) {
@@ -256,6 +256,25 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     public List<UserDTO> editUserByUsername(String username) {
         return userMapper.editUserByUsername(username);
     }
+
+    @Override
+    public List<Map<String,Object>> getRoleTypeNum() {
+
+        List<Map<String,Object>> roleTypeMap = this.roleMapper.getRoleType();
+
+        List<Map<String,Object>> list = new ArrayList<>();
+
+        for (Map<String,Object> param:roleTypeMap) {
+            Map<String,Object> map = new HashMap<>();
+            Integer result = this.userMapper.getNumByRoleType(param.get("roleType").toString());
+            map.put("name", param.get("roleType").toString());
+            map.put("value", result);
+            list.add(map);
+        }
+
+        return list;
+    }
+
 
     private boolean isIdCardExist(String idCard) {
         boolean flag = false;

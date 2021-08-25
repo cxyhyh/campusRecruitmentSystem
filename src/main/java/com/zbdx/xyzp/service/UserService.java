@@ -45,4 +45,6 @@ public interface UserService extends IService<User> {
     XSSFWorkbook copyTemplate(String resourceName);
 
     List<UserDTO> editUserByUsername(String username);
+
+    List<Map<String,Object>> getRoleTypeNum();
 }
