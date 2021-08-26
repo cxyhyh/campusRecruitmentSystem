@@ -183,6 +183,7 @@ public class JobServiceImpl extends ServiceImpl<JobMapper, Job> implements JobSe
             map.put("value", result);
             list.add(map);
         }
+
         return list;
     }
 
