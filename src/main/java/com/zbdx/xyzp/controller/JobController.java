@@ -97,6 +97,18 @@ public class JobController {
         return Result.success(jobService.getEducationRequirement());
     }
 
+    @ApiOperation("根据不同职位类型获取数量")
+    @GetMapping("/getJobTypeNum")
+    public Result getJobTypeNum(){
+        return Result.success(jobService.getJobTypeNum());
+    }
+
+    @ApiOperation("根据工作地点获取数量")
+    @GetMapping("/getWorkPositionNum")
+    public Result getWorkPositionNum(){
+        return Result.success(jobService.getWorkPositionNum());
+    }
+
     @ApiOperation("导入职位信息")
     @PostMapping("/importJob")
     public Result importJob(@RequestBody Map<String, Object> param) {

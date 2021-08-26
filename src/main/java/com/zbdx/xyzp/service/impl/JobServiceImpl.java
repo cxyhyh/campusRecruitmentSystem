@@ -13,6 +13,7 @@ import com.zbdx.xyzp.model.entity.Job;
 import com.zbdx.xyzp.model.entity.User;
 import com.zbdx.xyzp.service.JobService;
 import com.zbdx.xyzp.service.UserService;
+import com.zbdx.xyzp.util.CityUtils;
 import com.zbdx.xyzp.util.DateTimeUtils;
 import com.zbdx.xyzp.util.RegexUtils;
 import com.zbdx.xyzp.util.ValidUtils;
@@ -25,10 +26,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import javax.xml.soap.SAAJResult;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @Slf4j
 @Service
@@ -150,6 +148,42 @@ public class JobServiceImpl extends ServiceImpl<JobMapper, Job> implements JobSe
         }
         List<Job> resultList = JSON.parseArray(JSON.toJSONString(list), Job.class);
         return importBatchJob(resultList);
+    }
+
+    @Override
+    public List<Map<String, Object>> getJobTypeNum() {
+        List<Map<String,Object>> jobTypeMap = this.jobMapper.getJobType();
+
+        List<Map<String,Object>> list = new ArrayList<>();
+
+        for (Map<String,Object> param:jobTypeMap) {
+
+            Map<String,Object> map = Maps.newHashMap();
+            Integer result = this.jobMapper.getNumByJobType(param.get("jobType").toString());
+            map.put("name", param.get("jobType").toString());
+            map.put("value", result);
+            list.add(map);
+        }
+        return list;
+    }
+
+    @Override
+    public List<Map<String, Object>> getWorkPositionNum() {
+        List<Map<String,Object>> workPositionMap = this.jobMapper.getWorkPosition();
+
+        List<Map<String,Object>> list = new ArrayList<>();
+
+        for (Map<String,Object> param:workPositionMap) {
+
+            Map<String,Object> map = Maps.newHashMap();
+            Integer result = this.jobMapper.getNumByWorkPosition(param.get("workPosition").toString());
+
+            String name = CityUtils.findObjectProvince(param.get("workPosition").toString());
+            map.put("name", name);
+            map.put("value", result);
+            list.add(map);
+        }
+        return list;
     }
 
     private Map<String, Object> importBatchJob(List<Job> list) {

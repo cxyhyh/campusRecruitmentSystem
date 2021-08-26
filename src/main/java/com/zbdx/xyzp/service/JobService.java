@@ -29,4 +29,8 @@ public interface JobService extends IService<Job> {
     XSSFWorkbook exportJob(Map<String, Object> param);
 
     Map<String, Object> importJob(List<Map<String, Object>> list);
+
+    List<Map<String,Object>> getJobTypeNum();
+
+    List<Map<String,Object>> getWorkPositionNum();
 }

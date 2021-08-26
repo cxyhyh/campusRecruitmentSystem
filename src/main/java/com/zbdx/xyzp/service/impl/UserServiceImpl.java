@@ -265,17 +265,15 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         List<Map<String,Object>> list = new ArrayList<>();
 
         for (Map<String,Object> param:roleTypeMap) {
-            Map<String,Object> map = new HashMap<>();
+
+            Map<String,Object> map = Maps.newHashMap();
             Integer result = this.userMapper.getNumByRoleType(param.get("roleType").toString());
             map.put("name", param.get("roleType").toString());
             map.put("value", result);
             list.add(map);
         }
-
-
         return list;
     }
-
 
     private boolean isIdCardExist(String idCard) {
         boolean flag = false;

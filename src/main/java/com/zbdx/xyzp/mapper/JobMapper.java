@@ -29,4 +29,8 @@ public interface JobMapper extends BaseMapper<Job> {
     List<JobDTO> getList(Map<String, Object> param);
 
     String getJobNameByBelongCompanyAndJobName(String jobName,String belongCompany);
+
+    Integer getNumByJobType(String jobType);
+
+    Integer getNumByWorkPosition(String workPosition);
 }

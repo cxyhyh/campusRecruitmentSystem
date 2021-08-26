@@ -93,6 +93,12 @@ public class CompanyController {
         return Result.success(companyService.getLocation());
     }
 
+    @ApiOperation("根据不同企业类型获取数量")
+    @GetMapping("/getCompanyTypeNum")
+    public Result getCompanyTypeNum(){
+        return Result.success(companyService.getCompanyTypeNum());
+    }
+
     @ApiOperation("导入企业信息")
     @PostMapping("/importCompany")
     public Result importCompany(@RequestBody Map<String, Object> param) {

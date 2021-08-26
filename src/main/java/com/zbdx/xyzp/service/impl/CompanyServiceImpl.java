@@ -27,6 +27,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -231,6 +232,24 @@ public class CompanyServiceImpl extends ServiceImpl<CompanyMapper , Company> imp
             return wb;
         }
     }
+
+    @Override
+    public List<Map<String, Object>> getCompanyTypeNum() {
+        List<Map<String,Object>> companyTypeMap = this.companyMapper.getCompanyType();
+
+        List<Map<String,Object>> list = new ArrayList<>();
+
+        for (Map<String,Object> param:companyTypeMap) {
+
+            Map<String,Object> map = Maps.newHashMap();
+            Integer result = this.companyMapper.getNumByCompanyType(param.get("companyType").toString());
+            map.put("name", param.get("companyType").toString());
+            map.put("value", result);
+            list.add(map);
+        }
+        return list;
+    }
+
     private List<CompanyDTO> getList(Map<String, Object> param) {
         List<CompanyDTO> records = this.baseMapper.getList(param);
         return records;

@@ -30,6 +30,12 @@
         select distinct company_type from company group by company_type
     </select>
 
+    <select id="getNumByCompanyType" parameterType="com.zbdx.xyzp.model.dto.CompanyDTO" resultType="java.lang.Integer">
+        select count(c.company_type)
+        from company c
+        where company_type = #{companyType}
+    </select>
+
     <select id="getLocation" parameterType="com.zbdx.xyzp.model.dto.CompanyDTO" resultType="java.util.HashMap">
         select distinct location from company group by location
     </select>

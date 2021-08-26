@@ -25,4 +25,6 @@ public interface CompanyMapper extends BaseMapper<Company> {
     List<Map<String , Object>> getLocation();
 
     List<CompanyDTO> getList(Map<String, Object> param);
+
+    Integer getNumByCompanyType(String companyType);
 }

@@ -26,6 +26,19 @@
     <select id="getJobType" parameterType="com.zbdx.xyzp.model.dto.JobDTO" resultType="java.util.HashMap">
         select distinct job_type from job group by job_type
     </select>
+
+    <select id="getNumByJobType" parameterType="com.zbdx.xyzp.model.dto.JobDTO" resultType="java.lang.Integer">
+        select count(j.job_type)
+        from job j
+        where job_type = #{jobType}
+    </select>
+
+    <select id="getNumByWorkPosition" parameterType="com.zbdx.xyzp.model.dto.JobDTO" resultType="java.lang.Integer">
+        select count(j.work_position)
+        from job j
+        where work_position = #{workPosition}
+    </select>
+
     <select id="getWorkPosition" parameterType="com.zbdx.xyzp.model.dto.JobDTO" resultType="java.util.HashMap">
         select distinct work_position from job group by work_position
     </select>
