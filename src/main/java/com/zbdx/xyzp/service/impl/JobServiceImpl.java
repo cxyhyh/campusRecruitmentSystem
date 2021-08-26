@@ -169,15 +169,13 @@ public class JobServiceImpl extends ServiceImpl<JobMapper, Job> implements JobSe
 
     @Override
     public List<Map<String, Object>> getWorkPositionNum() {
+
         List<Map<String,Object>> workPositionMap = this.jobMapper.getWorkPosition();
-
         List<Map<String,Object>> list = new ArrayList<>();
-
         for (Map<String,Object> param:workPositionMap) {
 
             Map<String,Object> map = Maps.newHashMap();
             Integer result = this.jobMapper.getNumByWorkPosition(param.get("workPosition").toString());
-
             String name = CityUtils.findObjectProvince(param.get("workPosition").toString());
             map.put("name", name);
             map.put("value", result);
