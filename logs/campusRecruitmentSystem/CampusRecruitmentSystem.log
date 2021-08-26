@@ -1403,3 +1403,4 @@
 [CampusRecruitmentSystem-192.168.153.1-8080] 2021-08-26 16:12:31.641 INFO 22832 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
 [CampusRecruitmentSystem-192.168.153.1-8080] 2021-08-26 16:17:31.650 INFO 22832 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
 [CampusRecruitmentSystem-192.168.153.1-8080] 2021-08-26 16:22:31.654 INFO 22832 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-08-26 16:27:31.670 INFO 22832 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
