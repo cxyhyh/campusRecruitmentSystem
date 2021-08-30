@@ -1,5 +1,6 @@
 package com.zbdx.xyzp.model.dto;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.zbdx.xyzp.model.entity.User;
 import lombok.Data;
@@ -37,6 +38,16 @@ public class UserDTO extends User implements Serializable {
      *性别
      * */
     private String sex;
+
+    /**
+     *年龄
+     * */
+    private Integer age;
+
+    /**
+     *政治面貌 0中共党员 1中共预备党员 2共青团员 3民主党派 4无党派人士 5群众
+     * */
+    private String politicsStatus;
 
     /**
      *出生日期
@@ -119,5 +130,10 @@ public class UserDTO extends User implements Serializable {
      *简历申请状态
      * */
     private String status;
+
+    /**
+     *头像
+     * */
+    private String photo;
 
 }

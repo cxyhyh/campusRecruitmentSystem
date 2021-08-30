@@ -214,9 +214,9 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
                     row.createCell(cellIndex++).setCellValue(obj.getSex());
                     row.createCell(cellIndex++).setCellValue(DateTimeUtils.DateToStr(obj.getBirth()));
                     row.createCell(cellIndex++).setCellValue(obj.getNature());
+                    row.createCell(cellIndex++).setCellValue(obj.getPoliticsStatus());
                     row.createCell(cellIndex++).setCellValue(obj.getIdCard());
                     row.createCell(cellIndex++).setCellValue(obj.getHometown());
-
                     row.createCell(cellIndex++).setCellValue(obj.getMobilePhone());
                     row.createCell(cellIndex++).setCellValue(obj.getAddress());
                     row.createCell(cellIndex++).setCellValue(obj.getEmail());
@@ -233,6 +233,18 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
     private List<UserDTO> getList(Map<String, Object> param) {
         List<UserDTO> records = this.baseMapper.getList(param);
+        if (!records.isEmpty()) {
+            for (UserDTO record : records) {
+                try {
+                    if (record.getBirth() != null) {
+                        //根据出生日期计算年龄
+                        record.setAge(DateUtils.getAge(record.getBirth()));
+                    }
+                } catch (Exception e) {
+                    log.error("根据出生日期计算年龄错误", e);
+                }
+            }
+        }
         return records;
 
     }
@@ -373,6 +385,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
                 user.setTypeKey(Constant.TYPEKEY);
                 user.setPassword(Constant.PASSWORD);
                 user.setRegistTime(new Date());
+                user.setAge(DateUtils.getAge(user.getBirth()));
                 boolean save = this.save(user);
                 if (save) {
                     retMap.put("result", list);

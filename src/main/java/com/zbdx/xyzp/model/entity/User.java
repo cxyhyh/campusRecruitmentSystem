@@ -45,10 +45,10 @@ public class User implements Serializable {
     private Integer age;
 
     /**
-     *政治面貌
+     *政治面貌 0中共党员 1中共预备党员 2共青团员 3民主党派 4无党派人士 5群众
      * */
     @TableField(value = "politics_status")
-    private Integer politicsStatus;
+    private String politicsStatus;
 
     /**
      *真实姓名
@@ -124,4 +124,9 @@ public class User implements Serializable {
     @TableField(value = "regist_time")
     private Date registTime;
 
+    /**
+     *头像
+     * */
+    @TableField(value = "photo")
+    private String photo;
 }
