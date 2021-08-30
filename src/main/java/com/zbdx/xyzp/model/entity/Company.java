@@ -6,11 +6,8 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
-import org.springframework.format.annotation.DateTimeFormat;
-
 import java.io.Serializable;
 import java.util.Date;
-
 @Data
 @TableName(value = "company")
 public class Company implements Serializable {
@@ -20,7 +17,6 @@ public class Company implements Serializable {
      * */
     @TableId(value = "company_id" , type = IdType.AUTO)
     private Integer companyId;
-
 
     /**
      *企业名称
@@ -35,14 +31,14 @@ public class Company implements Serializable {
     private String companyType;
 
     /**
-         *成立时间
+     *成立时间
      * */
     @JsonFormat(pattern = "yyyy-MM-dd")
     @TableField(value = "found_time")
     private Date foundTime;
 
     /**
-         *员工人数
+     *员工人数
      * */
     @TableField(value = "employ_num")
     private Integer employNum;

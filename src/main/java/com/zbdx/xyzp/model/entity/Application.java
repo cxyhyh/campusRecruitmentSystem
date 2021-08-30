@@ -6,11 +6,9 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import java.io.Serializable;
-
 @Data
 @TableName(value = "application")
 public class Application implements Serializable {
-
 
     /**
      *职位申请id
@@ -41,6 +39,5 @@ public class Application implements Serializable {
      * */
     @TableField(value = "application_position")
     private String applicationPosition;
-
 
 }

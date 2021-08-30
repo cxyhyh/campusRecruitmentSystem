@@ -8,7 +8,6 @@ import com.zbdx.xyzp.model.entity.Skill;
 import com.zbdx.xyzp.service.SkillService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Map;
 
@@ -40,5 +39,10 @@ public class SkillServiceImpl extends ServiceImpl<SkillMapper , Skill> implement
     @Override
     public List<Map<String, Object>> getAppliedPosition() {
         return skillMapper.getAppliedPosition();
+    }
+
+    @Override
+    public Skill selectSkillByUsername(String username) {
+        return this.skillMapper.selectSkillByUsername(username);
     }
 }

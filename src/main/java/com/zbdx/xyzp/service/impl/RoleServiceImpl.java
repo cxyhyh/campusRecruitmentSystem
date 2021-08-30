@@ -1,6 +1,5 @@
 package com.zbdx.xyzp.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.zbdx.xyzp.mapper.RoleMapper;
@@ -9,8 +8,6 @@ import com.zbdx.xyzp.model.entity.Role;
 import com.zbdx.xyzp.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.util.StringUtils;
-
 import java.util.List;
 import java.util.Map;
 
@@ -20,7 +17,6 @@ public class RoleServiceImpl extends ServiceImpl<RoleMapper, Role> implements Ro
 
     @Autowired
     private RoleMapper roleMapper;
-
 
     @Override
     public List<RoleDTO> getRole(RoleDTO roleDTO) {
@@ -36,6 +32,5 @@ public class RoleServiceImpl extends ServiceImpl<RoleMapper, Role> implements Ro
     public List<Map<String, Object>> getRoleType() {
         return roleMapper.getRoleType();
     }
-
 
 }

@@ -2,15 +2,12 @@ package com.zbdx.xyzp.controller;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.zbdx.xyzp.model.dto.RoleDTO;
-import com.zbdx.xyzp.model.dto.UserDTO;
 import com.zbdx.xyzp.model.entity.Role;
-import com.zbdx.xyzp.model.entity.User;
 import com.zbdx.xyzp.service.RoleService;
 import com.zbdx.xyzp.util.Result;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 @RestController
 @RequestMapping("/role")
 @CrossOrigin("http://localhost:8081")
@@ -57,6 +54,5 @@ public class RoleController {
     public Result getRoleType() {
         return Result.success(roleService.getRoleType());
     }
-
 
 }

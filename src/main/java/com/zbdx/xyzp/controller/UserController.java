@@ -1,4 +1,5 @@
 package com.zbdx.xyzp.controller;
+
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -20,7 +21,7 @@ import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -30,7 +31,6 @@ import java.nio.file.Files;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
-
 @Slf4j
 @RestController
 @RequestMapping("/user")
@@ -150,8 +150,7 @@ public class UserController {
 
     @ApiOperation("根据真实姓名查询用户类型为普通用户信息和技能信息")
     @GetMapping("/getUserAndSkill")
-    public Result getUserAndSkill(
-            Page<UserDTO> page ,UserDTO userDTO
+    public Result getUserAndSkill(Page<UserDTO> page ,UserDTO userDTO
     ){
         return Result.success(userService.getUserAndSkill(page, userDTO));
     }
@@ -193,8 +192,7 @@ public class UserController {
 
     @ApiOperation(value = "下载用户模板" ,httpMethod = "GET", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     @GetMapping("/exportDefaultTemplate")
-    public void exportDefaultTemplate(HttpServletResponse response
-            , @NotBlank(message = "模板名称不能为空") String moduleNameCn){
+    public void exportDefaultTemplate(HttpServletResponse response,@NotBlank(message = "模板名称不能为空") String moduleNameCn){
 
         OutputStream out = null;
         InputStream in = null;
@@ -249,8 +247,7 @@ public class UserController {
 
     @ApiOperation(value = "导出用户信息", httpMethod = "GET")
     @GetMapping("/exportUser")
-    public Response exportUser(@RequestParam Map<String, Object> param,
-                               HttpServletResponse response) {
+    public Response exportUser(@RequestParam Map<String, Object> param, HttpServletResponse response) {
         String logStr = "用户基本信息导出";
         log.info("接受到参数信息{}", JSON.toJSONString(param));
         try {
@@ -273,5 +270,10 @@ public class UserController {
 
     }
 
+    @ApiOperation(value = "exportUserToWord" ,httpMethod = "GET",produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @GetMapping("/exportUserToWord")
+    public void exportUserToWord(HttpServletRequest request, HttpServletResponse response , String username) {
+        userService.exportUserToWord(username,request,response);
+    }
 
 }

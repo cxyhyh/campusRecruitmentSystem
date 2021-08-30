@@ -6,6 +6,7 @@
         <result property="roleType" column="role_type"/>
         <result property="typeKey" column="type_key"/>
     </resultMap>
+
     <select id="getRole" resultType="com.zbdx.xyzp.model.dto.RoleDTO">
         select * from role
     </select>
@@ -21,7 +22,5 @@
     <select id="getRoleType" parameterType="com.zbdx.xyzp.model.dto.RoleDTO" resultType="java.util.HashMap">
         select distinct role_type from role group by role_type
     </select>
-
-
 
 </mapper>

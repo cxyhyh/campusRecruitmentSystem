@@ -8,7 +8,6 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Map;
-
 @Repository
 public interface SkillMapper extends BaseMapper<Skill> {
 
@@ -22,6 +21,5 @@ public interface SkillMapper extends BaseMapper<Skill> {
 
     List<Map<String , Object>> getAppliedPosition();
 
-
-
+    Skill selectSkillByUsername(String username);
 }

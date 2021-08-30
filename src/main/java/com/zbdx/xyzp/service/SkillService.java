@@ -4,7 +4,6 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.zbdx.xyzp.model.dto.SkillDTO;
 import com.zbdx.xyzp.model.entity.Skill;
-import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Map;
@@ -20,5 +19,7 @@ public interface SkillService extends IService<Skill> {
     List<Map<String , Object>> getComputerSkill();
 
     List<Map<String , Object>> getAppliedPosition();
+
+    Skill selectSkillByUsername(String username);
 
 }

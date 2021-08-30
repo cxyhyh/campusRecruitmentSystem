@@ -2,7 +2,6 @@ package com.zbdx.xyzp.util;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.StringUtils;
-
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -55,6 +54,7 @@ public class DateTimeUtils {
 		}
 		return null;
 	}
+
 	public static String stamp(Date date) {
 		if (date != null) {
 			return new SimpleDateFormat("yyyyMMddHHmmss").format(date);
@@ -75,7 +75,6 @@ public class DateTimeUtils {
 		}
 		return null;
 	}
-	
 
 	/**
 	 * @方法说明 将时间戳转换为时间
@@ -119,7 +118,7 @@ public class DateTimeUtils {
 	/**
 	 * @ 获取指定时间的那天 00:00:00 的时间
 	 * 
-	 * @param date
+	 * @param
 	 * @return
 	 */
 	public static String getDayBeginTime(String strDate) {
@@ -175,7 +174,6 @@ public class DateTimeUtils {
 			return null;
 		}
 	}
-
 
 	/**
 	 * 获得本月的开始时间
@@ -274,7 +272,6 @@ public class DateTimeUtils {
         return dt;
     }
 
-
     /**
      * 当前年的开始时间
      *
@@ -356,7 +353,6 @@ public class DateTimeUtils {
         return result;
     }
 
-
 	/**
 	 * 计算俩个日期的相差天数
 	 * @param startDate
@@ -383,6 +379,7 @@ public class DateTimeUtils {
 		cal.set(Calendar.YEAR, year);
 		return cal.getTime();
 	}
+
 	/**
 	 * 获取系统当前年份
 	 * @return

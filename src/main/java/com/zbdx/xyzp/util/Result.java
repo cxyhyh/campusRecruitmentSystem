@@ -24,6 +24,7 @@ public class Result implements Serializable {
         result.setMessage(message);
         return result;
     }
+
     public static Result success(int code , String message , Object Data){
         Result result = new Result();
         result.setCode(code);
@@ -37,6 +38,7 @@ public class Result implements Serializable {
         result.setMessage(message);
         return result;
     }
+
     public static Result fail(Object data){
         Result result = new Result();
         result.setCode(400);

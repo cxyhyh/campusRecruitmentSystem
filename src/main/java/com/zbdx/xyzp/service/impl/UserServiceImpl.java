@@ -12,13 +12,15 @@ import com.zbdx.xyzp.constant.Constant;
 import com.zbdx.xyzp.mapper.RoleMapper;
 import com.zbdx.xyzp.mapper.UserMapper;
 import com.zbdx.xyzp.model.dto.UserDTO;
-import com.zbdx.xyzp.model.entity.Company;
+import com.zbdx.xyzp.model.entity.SelfEvaluation;
+import com.zbdx.xyzp.model.entity.Skill;
 import com.zbdx.xyzp.model.entity.User;
+import com.zbdx.xyzp.model.entity.WorkExperience;
+import com.zbdx.xyzp.service.SelfEvaluationService;
+import com.zbdx.xyzp.service.SkillService;
 import com.zbdx.xyzp.service.UserService;
-import com.zbdx.xyzp.util.DateTimeUtils;
-import com.zbdx.xyzp.util.RegexUtils;
-import com.zbdx.xyzp.util.Result;
-import com.zbdx.xyzp.util.ValidUtils;
+import com.zbdx.xyzp.service.WorkExperienceService;
+import com.zbdx.xyzp.util.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Row;
@@ -28,6 +30,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Service;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -45,11 +49,18 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     private CommonConfig commonConfig;
     @Autowired
     private RoleMapper roleMapper;
+    @Autowired
+    private WordUtils wordUtils;
+    @Autowired
+    private SkillService skillService;
+    @Autowired
+    private SelfEvaluationService selfEvaluationService;
+    @Autowired
+    private WorkExperienceService workExperienceService;
 
     @Override
     public List<UserDTO> getUser(UserDTO userDTO) {
         return userMapper.getUser(userDTO);
-
     }
 
     @Override
@@ -58,8 +69,8 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     }
 
     @Override
-    public List<UserDTO> selectByPassword(String password,String username) {
-        return userMapper.selectByPassword(username,password);
+    public List<UserDTO> selectByPassword(String password, String username) {
+        return userMapper.selectByPassword(username, password);
     }
 
     @Override
@@ -94,7 +105,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
     @Override
     public Page<UserDTO> getUserAndSkill(Page<UserDTO> page, UserDTO userDTO) {
-        return userMapper.getUserAndSkill(page , userDTO);
+        return userMapper.getUserAndSkill(page, userDTO);
     }
 
     @Override
@@ -124,35 +135,35 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             message = ValidUtils.judgeKongParam(message, param, "联系电话", "mobilePhone");
             message = ValidUtils.judgeKongParam(message, param, "电子邮箱", "email");
 
-            if (param.get("username") != null){
+            if (param.get("username") != null) {
                 boolean isExistUser = isUserExist(param.get("username").toString());
-                if (isExistUser){
+                if (isExistUser) {
                     message.append("@username:用户名已存在");
                 }
             }
-            if (param.get("mobilePhone") != null){
+            if (param.get("mobilePhone") != null) {
                 boolean isExistMobilePhone = isMobilePhoneExist(param.get("mobilePhone").toString());
-                if (isExistMobilePhone){
+                if (isExistMobilePhone) {
                     message.append("@mobilePhone:手机号已存在");
                 }
             }
-            if (param.get("idCard") != null){
+            if (param.get("idCard") != null) {
                 boolean isExistIdNumber = isIdCardExist(param.get("idCard").toString());
-                if (isExistIdNumber){
+                if (isExistIdNumber) {
                     message.append("@idCard:身份证号码已存在");
                 }
                 if (!RegexUtils.validateIdNumber(param.get("idCard").toString())) {
                     message.append("@idCard:身份证格式错误;");
                 }
             }
-            if (param.get("phone") != null){
+            if (param.get("phone") != null) {
                 if (!RegexUtils.validateMobilePhone(param.get("phone").toString())) {
                     message.append("@phone:手机号格式错误;");
                 }
             }
-            if (param.get("email") != null){
+            if (param.get("email") != null) {
                 boolean isExistEmail = isEmailExist(param.get("email").toString());
-                if (isExistEmail){
+                if (isExistEmail) {
                     message.append("@email:电子邮箱已存在");
                 }
             }
@@ -161,7 +172,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             }
         }
         if (!error.isEmpty()) {
-            map.put("code",400);
+            map.put("code", 400);
             map.put("status", "fail");
             map.put("message", error);
             return map;
@@ -258,21 +269,66 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     }
 
     @Override
-    public List<Map<String,Object>> getRoleTypeNum() {
+    public List<Map<String, Object>> getRoleTypeNum() {
 
-        List<Map<String,Object>> roleTypeMap = this.roleMapper.getRoleType();
+        List<Map<String, Object>> roleTypeMap = this.roleMapper.getRoleType();
 
-        List<Map<String,Object>> list = new ArrayList<>();
+        List<Map<String, Object>> list = new ArrayList<>();
 
-        for (Map<String,Object> param:roleTypeMap) {
+        for (Map<String, Object> param : roleTypeMap) {
 
-            Map<String,Object> map = Maps.newHashMap();
+            Map<String, Object> map = Maps.newHashMap();
             Integer result = this.userMapper.getNumByRoleType(param.get("roleType").toString());
             map.put("name", param.get("roleType").toString());
             map.put("value", result);
             list.add(map);
         }
         return list;
+    }
+
+    @Override
+    public void exportUserToWord(String username, HttpServletRequest request, HttpServletResponse response) {
+
+        User user = this.selectByUsername(username);
+        String RealName = this.userMapper.selectRealNameByUsername(username);
+        Skill skill = skillService.selectSkillByUsername(RealName);
+        SelfEvaluation selfEvaluation = selfEvaluationService.selectByUsername(username);
+        Map<String, Object> map = new HashMap<>();
+        map.put("realName", RealName);
+        map.put("sex", user.getSex());
+        map.put("birth", DateUtils.DateToString(user.getBirth()));
+        map.put("nature", user.getNature());
+        map.put("address", user.getAddress());
+        map.put("hometown", user.getHometown());
+        map.put("phone", user.getMobilePhone());
+        map.put("email", user.getEmail());
+        map.put("idCard", user.getIdCard());
+        map.put("education", user.getEducation());
+        map.put("college", user.getCollege());
+        map.put("englishSkill", skill.getEnglishSkill());
+        map.put("computerSkill", skill.getComputerSkill());
+        map.put("appliedPosition", skill.getAppliedPosition());
+        map.put("mainSkill", skill.getMainSkill());
+        map.put("selfEvaluation", selfEvaluation.getSelfEvaluation());
+
+        List<WorkExperience> workExperiencesList = workExperienceService.selectByUsername(username);
+        List<Map<String, String>> list = new ArrayList<>();
+        for (WorkExperience workExperience : workExperiencesList) {
+            Map<String, String> mapList = new HashMap<>();
+            mapList.put("entryTime", DateUtils.DateToString(workExperience.getEntryTime()));
+            mapList.put("departureTime", DateUtils.DateToString(workExperience.getDepartureTime()));
+            mapList.put("workCompany", workExperience.getWorkCompany());
+            mapList.put("post", workExperience.getPost());
+            mapList.put("duty", workExperience.getDuty());
+            list.add(mapList);
+        }
+        map.put("workExperienceList", list);
+        wordUtils.exportWord(request, response, user.getRealName()+"简历", "用户信息.ftl", map);
+    }
+
+    @Override
+    public User selectByUsername(String username) {
+        return this.baseMapper.selectByUsername(username);
     }
 
     private boolean isIdCardExist(String idCard) {
@@ -320,11 +376,11 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
                 boolean save = this.save(user);
                 if (save) {
                     retMap.put("result", list);
-                    retMap.put("code",200);
+                    retMap.put("code", 200);
                     retMap.put("status", "success");
                 } else {
                     retMap.put("result", save);
-                    retMap.put("code",400);
+                    retMap.put("code", 400);
                     retMap.put("status", "fail");
                     retMap.put("message", "批量入库失败");
                 }
@@ -346,7 +402,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         if (list.size() <= 0) {
             return Result.fail(400, "用户不存在，请重新输入或立即注册！！");
         } else {
-            List<UserDTO> list1 = userMapper.selectByPassword(username,password);
+            List<UserDTO> list1 = userMapper.selectByPassword(username, password);
             if (list1.size() <= 0) {
                 return Result.fail(400, "密码错误！！");
             }

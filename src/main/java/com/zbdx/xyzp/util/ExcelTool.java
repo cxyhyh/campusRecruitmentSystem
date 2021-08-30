@@ -93,7 +93,6 @@ public class ExcelTool {
         cell.setCellStyle(centerStyle);
     }
 
-
     private static void createSplitRow(XSSFWorkbook workbook, XSSFSheet sheet, int rowIndex, String lineName, boolean pointSplit) {
         XSSFRow row = sheet.createRow(rowIndex);
         if (pointSplit)

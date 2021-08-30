@@ -5,9 +5,7 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
-
 import java.io.Serializable;
-
 @Data
 @TableName(value = "jianli")
 public class JianLi implements Serializable {
@@ -17,7 +15,6 @@ public class JianLi implements Serializable {
      */
     @TableId(value = "jianli_id", type = IdType.AUTO)
     private Integer jianliId;
-
 
     /**
      * 简历地址

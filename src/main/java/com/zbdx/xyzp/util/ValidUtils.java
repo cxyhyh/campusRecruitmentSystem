@@ -104,8 +104,7 @@ public class ValidUtils {
         boolean number = mat.matches();
         return number;
     }
-    
-    
+
     /**
      * 校验正整数和正小数
      * @param stringVal
@@ -132,4 +131,5 @@ public class ValidUtils {
         }
         return pattern.matcher(strFlag[0].trim()).matches() && pattern.matcher(strFlag[1].trim()).matches();
     }
+
 }

@@ -13,10 +13,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @Data
 public class CommonConfig {
+
     @Value("${file.prefix}")
     private String exportTmpPath;
-
-
-
 
 }

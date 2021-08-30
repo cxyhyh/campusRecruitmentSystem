@@ -4,11 +4,8 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.google.common.collect.Maps;
-import com.zbdx.xyzp.model.dto.CompanyDTO;
 import com.zbdx.xyzp.model.dto.JobDTO;
-import com.zbdx.xyzp.model.dto.UserDTO;
 import com.zbdx.xyzp.model.entity.Job;
-import com.zbdx.xyzp.model.entity.User;
 import com.zbdx.xyzp.service.JobService;
 import com.zbdx.xyzp.util.DateTimeUtils;
 import com.zbdx.xyzp.util.ExcelTool;
@@ -23,7 +20,6 @@ import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.constraints.NotBlank;
 import java.io.*;
@@ -32,7 +28,6 @@ import java.nio.file.Files;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
-
 @Slf4j
 @RestController
 @RequestMapping("/job")

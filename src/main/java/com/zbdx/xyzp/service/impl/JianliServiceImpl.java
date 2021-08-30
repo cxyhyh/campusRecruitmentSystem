@@ -9,7 +9,6 @@ import com.zbdx.xyzp.model.entity.JianLi;
 import com.zbdx.xyzp.service.JianliService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Map;
 
@@ -58,6 +57,5 @@ public class JianliServiceImpl extends ServiceImpl<JianliMapper, JianLi> impleme
     public List<Map<String, Object>> getApplicationPosition() {
         return jianliMapper.getApplicationPosition();
     }
-
 
 }

@@ -1,14 +1,10 @@
 package com.zbdx.xyzp.model.dto;
 
-import com.baomidou.mybatisplus.annotation.TableId;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.zbdx.xyzp.model.entity.User;
 import lombok.Data;
-import org.springframework.format.annotation.DateTimeFormat;
-
 import java.io.Serializable;
 import java.util.Date;
-
 @Data
 public class UserDTO extends User implements Serializable {
 
@@ -36,8 +32,6 @@ public class UserDTO extends User implements Serializable {
      *真实姓名
      * */
     private String realName;
-
-
 
     /**
      *性别
@@ -96,6 +90,9 @@ public class UserDTO extends User implements Serializable {
     @JsonFormat(pattern = "yyyy-MM-dd")
     private Date registTime;
 
+    /**
+     *角色类型
+     * */
     private String  roleType;
 
     /**

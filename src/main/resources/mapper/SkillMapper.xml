@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zbdx.xyzp.mapper.SkillMapper">
+
     <select id="getSkill" resultType="com.zbdx.xyzp.model.dto.SkillDTO">
         select * from skill
+    </select>
+
+    <select id="selectSkillByUsername" resultType="com.zbdx.xyzp.model.entity.Skill">
+        select * from skill where real_name = #{realName}
     </select>
 
     <select id="pageSkill" resultType="com.zbdx.xyzp.model.dto.SkillDTO">
@@ -33,4 +38,5 @@
     <select id="getAppliedPosition" parameterType="com.zbdx.xyzp.model.dto.SkillDTO" resultType="java.util.HashMap">
         select distinct applied_position from skill group by applied_position
     </select>
+
 </mapper>

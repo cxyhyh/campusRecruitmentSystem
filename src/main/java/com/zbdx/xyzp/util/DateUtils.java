@@ -8,7 +8,6 @@ package com.zbdx.xyzp.util;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.StringUtils;
-
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -24,7 +23,6 @@ import java.util.Locale;
  */
 @Slf4j
 public class DateUtils {
-
 
 	/**
 	 * 获取当前时间yyyy-MM-dd HH:mm:ss
@@ -75,6 +73,7 @@ public class DateUtils {
 		Date date = sdf.parse(data);
 		return date;
 	}
+
 	/**
 	 * 获取今天日期
 	 * @param format 日期格式
@@ -89,6 +88,7 @@ public class DateUtils {
             return nowDate;
 
     }
+
 	/**
 	 * 获取明天日期
 	 * @param format 日期格式
@@ -107,6 +107,7 @@ public class DateUtils {
 			String nextDate_1 = sf.format(cal.getTime());
 		return nextDate_1;
 	}
+
 	/**
 	 * 获取昨天日期
 	 * @param format 日期格式
@@ -127,6 +128,7 @@ public class DateUtils {
 			String nextDate_1 = sf.format(cal.getTime());
 		return nextDate_1;
 	}
+
 	/**
 	 * 获取单独日期
 	 * @return int[0] : 当前年，int[1] : 当前月，int[2] : 当前日
@@ -139,6 +141,7 @@ public class DateUtils {
 		int[] dateYMD=new int[]{year,month,day};
 		return dateYMD;
 	}
+
 	/**
 	 * 获取10分钟前的时间格式
 	 * @return Date
@@ -148,6 +151,7 @@ public class DateUtils {
 		Date afterDate = new Date(date .getTime() - 1800000);
 		return afterDate;
 	}
+
 	/**
 	 * 根据年月获取新的时间.返回时间格式
 	 * @return Date
@@ -159,6 +163,7 @@ public class DateUtils {
 		String newCreateDate = yearMonth+ createDate.substring(10, createDate.length());
 		return sdf.parse(newCreateDate);
 	}
+
 	/**
 	 * 根据年月获取新的时间.返回时间格式
 	 * @return Date
@@ -172,6 +177,7 @@ public class DateUtils {
 		String newCreateDate = yearMonth+ datetime.substring(10, datetime.length());
 		return sdf.parse(newCreateDate);
 	}
+
 	/**
 	 * 根据年月获取新的时间.返回字符串格式
 	 * @return Date
@@ -179,6 +185,7 @@ public class DateUtils {
 	public static String getNewDateByYearMonthString(String date,String yearMonth) {
 		return yearMonth + date.substring(10, date.length());
 	}
+
 	/**
 	 * 根据年月获取新的时间.返回字符串格式时间上下浮动2000时间戳半个小时左右
 	 * @return Date
@@ -204,6 +211,7 @@ public class DateUtils {
 		now.set(Calendar.DATE, now.get(Calendar.DATE) + day);
 		return now.getTime();
 	}
+
 	/**
 	 * 得到当前时间的前N小时
 	 *
@@ -259,6 +267,7 @@ public class DateUtils {
 	        c.set(Calendar.DATE, day + 1);
 		return c.getTime();
 	}
+
 	/**
 	 * @方法说明 获取某一日期是周几
 	 **/

@@ -7,7 +7,6 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import java.io.Serializable;
 @Data
-
 @TableName(value = "skill")
 public class Skill implements Serializable {
 

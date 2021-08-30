@@ -6,7 +6,6 @@ import com.zbdx.xyzp.model.dto.ApplicationDTO;
 import com.zbdx.xyzp.model.entity.Application;
 import com.zbdx.xyzp.util.Result;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Map;
 

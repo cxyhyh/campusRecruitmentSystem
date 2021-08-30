@@ -9,7 +9,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Map;
-
 @Repository
 public interface ApplicationMapper extends BaseMapper<Application> {
 

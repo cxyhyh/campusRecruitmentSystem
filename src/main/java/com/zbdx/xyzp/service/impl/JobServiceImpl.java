@@ -6,16 +6,13 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import com.zbdx.xyzp.constant.Constant;
 import com.zbdx.xyzp.mapper.JobMapper;
 import com.zbdx.xyzp.model.dto.JobDTO;
 import com.zbdx.xyzp.model.entity.Job;
-import com.zbdx.xyzp.model.entity.User;
 import com.zbdx.xyzp.service.JobService;
 import com.zbdx.xyzp.service.UserService;
 import com.zbdx.xyzp.util.CityUtils;
 import com.zbdx.xyzp.util.DateTimeUtils;
-import com.zbdx.xyzp.util.RegexUtils;
 import com.zbdx.xyzp.util.ValidUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.poi.ss.usermodel.Row;
@@ -24,8 +21,6 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
-
-import javax.xml.soap.SAAJResult;
 import java.util.*;
 
 @Slf4j

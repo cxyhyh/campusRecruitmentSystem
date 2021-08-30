@@ -1,6 +1,5 @@
 package com.zbdx.xyzp.mapper;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.zbdx.xyzp.model.dto.UserDTO;
@@ -9,7 +8,6 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Map;
-
 @Repository
 public interface UserMapper extends BaseMapper<User> {
 
@@ -42,4 +40,8 @@ public interface UserMapper extends BaseMapper<User> {
     boolean updatePassword(String username,String password);
 
     Integer getNumByRoleType(String roleType);
+
+    User selectByUsername(String username);
+
+    String selectRealNameByUsername(String username);
 }

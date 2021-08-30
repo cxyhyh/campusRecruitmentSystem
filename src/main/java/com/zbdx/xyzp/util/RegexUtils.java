@@ -4,7 +4,6 @@ import java.util.regex.Pattern;
 
 public class RegexUtils {
 
-
     private static final Pattern PHONE_PATTERN = Pattern.compile("^[1]\\d{10}$");
 
     private static final Pattern USERNAME_PATTERN = Pattern.compile("[a-zA-Z0-9]*");

@@ -6,10 +6,8 @@ import com.zbdx.xyzp.model.dto.JianLiDTO;
 import com.zbdx.xyzp.model.entity.JianLi;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
-
 import java.util.List;
 import java.util.Map;
-
 @Repository
 public interface JianliMapper extends BaseMapper<JianLi> {
     List<JianLiDTO> getJianli(JianLiDTO jianLiDTO);

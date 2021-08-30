@@ -6,8 +6,6 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
-import org.springframework.format.annotation.DateTimeFormat;
-
 import java.io.Serializable;
 import java.util.Date;
 
@@ -39,6 +37,18 @@ public class User implements Serializable {
      * */
     @TableField(value = "type_key")
     private Integer typeKey;
+
+    /**
+     *年龄
+     * */
+    @TableField(value = "age")
+    private Integer age;
+
+    /**
+     *政治面貌
+     * */
+    @TableField(value = "politics_status")
+    private Integer politicsStatus;
 
     /**
      *真实姓名
@@ -75,7 +85,7 @@ public class User implements Serializable {
      *籍贯
      * */
     @TableField(value = "hometown")
-        private String hometown;
+    private String hometown;
 
     /**
      *文化程度
@@ -87,7 +97,7 @@ public class User implements Serializable {
      *所属院校
      * */
     @TableField(value = "college")
-        private String college;
+    private String college;
 
     /**
      *手机号码
@@ -99,13 +109,13 @@ public class User implements Serializable {
      *电子邮箱
      * */
     @TableField(value = "email")
-                private String email;
+    private String email;
 
     /**
      *住址
      * */
     @TableField(value = "address")
-            private String address;
+    private String address;
 
     /**
      *注册时间

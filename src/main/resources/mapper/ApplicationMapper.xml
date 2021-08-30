@@ -5,10 +5,6 @@
         select username from application where username = #{username}
     </select>
 
-    <insert id="addApplication" parameterType="com.zbdx.xyzp.model.entity.Application">
-        insert into application(username ,application_position ,status , role_type) values (#{username} , #{applicationPosition}, #{status}, #{roleType})
-    </insert>
-
     <select id="pageApplication" resultType="com.zbdx.xyzp.model.dto.ApplicationDTO">
         select * from application
         where 1=1
@@ -34,4 +30,8 @@
     <select id="getUsernameAndApplicationPosition" resultType="com.zbdx.xyzp.model.dto.ApplicationDTO">
         select * from application where username= #{username} and application_position= #{applicationPosition};
     </select>
+
+    <insert id="addApplication" parameterType="com.zbdx.xyzp.model.entity.Application">
+        insert into application(username ,application_position ,status , role_type) values (#{username} , #{applicationPosition}, #{status}, #{roleType})
+    </insert>
 </mapper>

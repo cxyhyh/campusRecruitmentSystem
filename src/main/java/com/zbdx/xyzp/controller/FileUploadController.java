@@ -1,4 +1,5 @@
 package com.zbdx.xyzp.controller;
+
 import com.zbdx.xyzp.model.entity.JianLi;
 import com.zbdx.xyzp.service.JianliService;
 import io.swagger.annotations.ApiOperation;
@@ -10,7 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.net.URLEncoder;
-
 @Controller
 @RequestMapping("/file")
 @CrossOrigin("http://localhost:8081")

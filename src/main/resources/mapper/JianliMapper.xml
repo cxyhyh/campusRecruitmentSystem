@@ -4,6 +4,7 @@
     <select id="getJianli" resultType="com.zbdx.xyzp.model.dto.JianLiDTO">
         select * from jianli
     </select>
+
     <select id="pageJianLi" resultType="com.zbdx.xyzp.model.dto.JianLiDTO">
         select * from jianli
         where 1=1
@@ -17,9 +18,6 @@
             and application_position = #{param.applicationPosition}
         </if>
     </select>
-    <update id="updateUsernameById">
-        update jianli set username = #{username} , application_position= #{applicationPosition} where id = #{jianliId}
-    </update>
 
     <select id="getMaxJianliId" resultType="java.lang.Integer">
         select MAX(jianli_id) from jianli where file_name = #{fileName}
@@ -37,5 +35,7 @@
         select distinct application_position from jianli group by application_position
     </select>
 
-
+    <update id="updateUsernameById">
+        update jianli set username = #{username} , application_position= #{applicationPosition} where id = #{jianliId}
+    </update>
 </mapper>

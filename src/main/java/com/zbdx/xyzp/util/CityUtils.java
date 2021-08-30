@@ -10,6 +10,7 @@ import java.util.List;
  * @Date 2021/8/26 13:25
  */
 public class CityUtils {
+
     public static List<String[]> allCity() {
 
         List<String[]> allCityList = new ArrayList<>();
@@ -57,7 +58,6 @@ public class CityUtils {
         allCityList.add(new String[]{"香港"});
         allCityList.add(new String[]{"澳门"});
         allCityList.add(new String[]{"台湾"});
-
 
         return allCityList;
     }

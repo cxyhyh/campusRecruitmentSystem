@@ -11,7 +11,6 @@ import com.zbdx.xyzp.service.ApplicationService;
 import com.zbdx.xyzp.util.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Map;
 
@@ -20,10 +19,6 @@ public class ApplicationServiceImpl extends ServiceImpl<ApplicationMapper, Appli
 
     @Autowired
     private ApplicationMapper applicationMapper;
-    @Autowired
-    private UserMapper userMapper;
-
-
     @Override
     public List<ApplicationDTO> getApplication() {
         return applicationMapper.getApplication();

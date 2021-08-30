@@ -4,9 +4,11 @@
     <select id="getJob" resultType="com.zbdx.xyzp.model.dto.JobDTO">
         select * from job
     </select>
+
     <select id="getList" resultType="com.zbdx.xyzp.model.dto.JobDTO">
         select * from job
     </select>
+
     <select id="pageJob" resultType="com.zbdx.xyzp.model.dto.JobDTO">
         select * from job
         where 1=1
@@ -23,6 +25,7 @@
             and work_position = #{param.workPosition}
         </if>
     </select>
+
     <select id="getJobType" parameterType="com.zbdx.xyzp.model.dto.JobDTO" resultType="java.util.HashMap">
         select distinct job_type from job group by job_type
     </select>
@@ -42,16 +45,20 @@
     <select id="getWorkPosition" parameterType="com.zbdx.xyzp.model.dto.JobDTO" resultType="java.util.HashMap">
         select distinct work_position from job group by work_position
     </select>
+
     <select id="getEducationRequirement" parameterType="com.zbdx.xyzp.model.dto.JobDTO" resultType="java.util.HashMap">
         select distinct education_requirement from job group by education_requirement
     </select>
+
     <select id="jobAndCompanyDetailByjobName" resultType="com.zbdx.xyzp.model.dto.JobDTO">
         select j.* , c.* from job j
         left join company c
         on j.belong_company = c.company_name
         where job_name = #{jobName}
     </select>
+
     <select id="getJobNameByBelongCompanyAndJobName" resultType="java.lang.String">
         select DISTINCT job_name from job where belong_company = #{belongCompany} and job_name = #{jobName}
     </select>
+
 </mapper>

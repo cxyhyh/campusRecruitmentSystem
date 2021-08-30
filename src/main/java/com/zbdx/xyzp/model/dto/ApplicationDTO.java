@@ -1,9 +1,7 @@
 package com.zbdx.xyzp.model.dto;
 
-import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
 import java.io.Serializable;
-import java.util.Date;
 
 @Data
 public class ApplicationDTO implements Serializable {
@@ -33,6 +31,5 @@ public class ApplicationDTO implements Serializable {
      *申请职位
      * */
     private String applicationPosition;
-
 
 }

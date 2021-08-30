@@ -1,13 +1,9 @@
 package com.zbdx.xyzp.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.zbdx.xyzp.model.entity.Job;
 import lombok.Data;
-import org.springframework.format.annotation.DateTimeFormat;
-
 import java.io.Serializable;
 import java.util.Date;
-
 @Data
 public class JobDTO  implements Serializable {
 
@@ -64,14 +60,13 @@ public class JobDTO  implements Serializable {
     /**
      *具体要求
      * */
-        private String specificRequirement;
+    private String specificRequirement;
 
     /**
      *发布时间
      * */
     @JsonFormat(pattern = "yyyy-MM-dd")
     private Date createTime;
-
 
     /**
      *所属公司

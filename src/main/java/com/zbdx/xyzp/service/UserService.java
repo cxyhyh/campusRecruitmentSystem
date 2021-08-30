@@ -5,9 +5,10 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.zbdx.xyzp.model.dto.UserDTO;
 import com.zbdx.xyzp.model.entity.User;
 import com.zbdx.xyzp.util.Result;
-import org.apache.ibatis.annotations.Param;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.stereotype.Service;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 import java.util.Map;
 
@@ -47,4 +48,8 @@ public interface UserService extends IService<User> {
     List<UserDTO> editUserByUsername(String username);
 
     List<Map<String,Object>> getRoleTypeNum();
+
+    void exportUserToWord(String username, HttpServletRequest request, HttpServletResponse response);
+
+    User selectByUsername(String username);
 }
