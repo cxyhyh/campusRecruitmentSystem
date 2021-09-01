@@ -1959,6 +1959,7 @@
                         </w:p>
                     </w:tc>
                 </w:tr>
+
                 <#list workExperienceList as list>
                 <w:tr>
                     <w:tblPrEx>
