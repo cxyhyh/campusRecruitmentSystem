@@ -3,6 +3,7 @@ package com.zbdx.xyzp.service.impl;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.google.common.collect.Lists;
@@ -23,6 +24,7 @@ import com.zbdx.xyzp.service.WorkExperienceService;
 import com.zbdx.xyzp.util.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -30,12 +32,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Service;
+import sun.misc.BASE64Encoder;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URL;
 import java.nio.file.Files;
 import java.util.*;
 
@@ -126,8 +131,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             log.info("第{}条,内容：{}", i + 1, JSONObject.toJSONString(param));
 
             message = ValidUtils.judgeKongParam(message, param, "用户名", "username");
-            message = ValidUtils.judgeKongParam(message, param, "密码", "password");
-            message = ValidUtils.judgeKongParam(message, param, "用户类型", "roleType");
             message = ValidUtils.judgeKongParam(message, param, "姓名", "realName");
             message = ValidUtils.judgeKongParam(message, param, "性别", "sex");
             message = ValidUtils.judgeKongParam(message, param, "出生日期", "birth");
@@ -301,41 +304,75 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     @Override
     public void exportUserToWord(String username, HttpServletRequest request, HttpServletResponse response) {
 
-        User user = this.selectByUsername(username);
-        String RealName = this.userMapper.selectRealNameByUsername(username);
-        Skill skill = skillService.selectSkillByUsername(RealName);
-        SelfEvaluation selfEvaluation = selfEvaluationService.selectByUsername(username);
-        Map<String, Object> map = new HashMap<>();
-        map.put("realName", RealName);
-        map.put("sex", user.getSex());
-        map.put("birth", DateUtils.DateToString(user.getBirth()));
-        map.put("nature", user.getNature());
-        map.put("address", user.getAddress());
-        map.put("hometown", user.getHometown());
-        map.put("phone", user.getMobilePhone());
-        map.put("email", user.getEmail());
-        map.put("idCard", user.getIdCard());
-        map.put("education", user.getEducation());
-        map.put("college", user.getCollege());
-        map.put("englishSkill", skill.getEnglishSkill());
-        map.put("computerSkill", skill.getComputerSkill());
-        map.put("appliedPosition", skill.getAppliedPosition());
-        map.put("mainSkill", skill.getMainSkill());
-        map.put("selfEvaluation", selfEvaluation.getSelfEvaluation());
+            User user = this.selectByUsername(username);
 
-        List<WorkExperience> workExperiencesList = workExperienceService.selectByUsername(username);
-        List<Map<String, String>> list = new ArrayList<>();
-        for (WorkExperience workExperience : workExperiencesList) {
-            Map<String, String> mapList = new HashMap<>();
-            mapList.put("entryTime", DateUtils.DateToString(workExperience.getEntryTime()));
-            mapList.put("departureTime", DateUtils.DateToString(workExperience.getDepartureTime()));
-            mapList.put("workCompany", workExperience.getWorkCompany());
-            mapList.put("post", workExperience.getPost());
-            mapList.put("duty", workExperience.getDuty());
-            list.add(mapList);
-        }
-        map.put("workExperienceList", list);
-        wordUtils.exportWord(request, response, user.getRealName()+"简历", "用户信息.ftl", map);
+            String RealName = this.userMapper.selectRealNameByUsername(username);
+            Skill skill = skillService.selectByUsername(username);
+            SelfEvaluation selfEvaluation = selfEvaluationService.selectByUsername(username);
+            Map<String, Object> map = new HashMap<>();
+            map.put("realName", RealName);
+            map.put("sex", user.getSex());
+            map.put("birth", DateUtils.DateToString(user.getBirth()));
+            String data = getImageStr(user.getPhoto());
+            map.put("image",data);
+            map.put("politicsStatus",user.getPoliticsStatus());
+            map.put("nature", user.getNature());
+            map.put("address", user.getAddress());
+            map.put("hometown", user.getHometown());
+            map.put("phone", user.getMobilePhone());
+            map.put("email", user.getEmail());
+            map.put("idCard", user.getIdCard());
+            map.put("education", user.getEducation());
+            map.put("college", user.getCollege());
+            map.put("englishSkill", skill.getEnglishSkill());
+            map.put("computerSkill", skill.getComputerSkill());
+            map.put("appliedPosition", skill.getAppliedPosition());
+            map.put("mainSkill", skill.getMainSkill());
+            map.put("selfEvaluation", selfEvaluation.getSelfEvaluation());
+
+            List<WorkExperience> workExperiencesList = workExperienceService.selectByUsername(username);
+            List<Map<String, String>> list = new ArrayList<>();
+            for (WorkExperience workExperience : workExperiencesList) {
+                Map<String, String> mapList = new HashMap<>();
+                mapList.put("entryTime", DateUtils.DateToString(workExperience.getEntryTime()));
+                mapList.put("departureTime", DateUtils.DateToString(workExperience.getDepartureTime()));
+                mapList.put("workCompany", workExperience.getWorkCompany());
+                mapList.put("post", workExperience.getPost());
+                mapList.put("duty", workExperience.getDuty());
+                list.add(mapList);
+            }
+            map.put("workExperienceList", list);
+            wordUtils.exportWord(request, response, user.getRealName()+"简历", "用户.ftl", map);
+
+    }
+
+    private String getImageStr(String imgFile) {
+
+        InputStream in = null;
+        byte[] data = null;
+            try {
+                if (imgFile.contains("http://")) {
+
+                    URL url = new URL(imgFile);
+                    in = url.openStream();
+                    data = new byte[in.available()];
+                    in.read(data);
+                    in.close();
+                }
+                else {
+                    in = new FileInputStream(imgFile);
+                    data = new byte[in.available()];
+                    in.read(data);
+                    in.close();
+                }
+            } catch (IOException e) {
+                log.error("IO操作图片错误", e);
+                e.printStackTrace();
+            }
+
+        BASE64Encoder encoder = new BASE64Encoder();
+        return encoder.encode(data);
+
     }
 
     @Override
@@ -382,11 +419,28 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         StringBuffer ret = new StringBuffer("站室批量入库情况：");
         try {
             for (User user : list) {
+
                 user.setTypeKey(Constant.TYPEKEY);
-                user.setPassword(Constant.PASSWORD);
+
+                if (user.getPassword() == null){
+                    user.setPassword(Constant.PASSWORD);
+                }
                 user.setRegistTime(new Date());
                 user.setAge(DateUtils.getAge(user.getBirth()));
+                user.setPhoto("http://photocq.photo.store.qq.com/psc?/V10Coxr741CNCo/PF0gTXIfeYSjJmkdy2Sn0L8oDlvhXhYIhjwwjqzhPZHG3QY60X*zWof10UOxEEp4Pc0200PmKnRvzwKq3EcBLA!!/mnull&bo=4AHgAQAAAAABByA!&rf=photolist&t=5");
                 boolean save = this.save(user);
+               Skill skill = new Skill();
+               skill.setUsername(user.getUsername());
+               skillService.save(skill);
+
+               WorkExperience workExperience = new WorkExperience();
+               workExperience.setUsername(user.getUsername());
+               workExperienceService.save(workExperience);
+
+               SelfEvaluation selfEvaluation = new SelfEvaluation();
+               selfEvaluation.setUsername(user.getUsername());
+               selfEvaluationService.save(selfEvaluation);
+
                 if (save) {
                     retMap.put("result", list);
                     retMap.put("code", 200);

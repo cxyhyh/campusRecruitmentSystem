@@ -22,4 +22,6 @@ public interface SkillMapper extends BaseMapper<Skill> {
     List<Map<String , Object>> getAppliedPosition();
 
     Skill selectSkillByUsername(String username);
+
+    Skill selectByUsername(String username);
 }

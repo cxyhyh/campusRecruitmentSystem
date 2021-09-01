@@ -46,4 +46,10 @@ public class Skill implements Serializable {
     @TableField(value = "real_name")
     private String realName;
 
+    /**
+     *用户名
+     * */
+    @TableField(value = "username")
+    private String username;
+
 }

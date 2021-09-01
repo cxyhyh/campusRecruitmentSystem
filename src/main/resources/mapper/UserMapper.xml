@@ -21,7 +21,7 @@
 
     <select id="selectByUsername" resultType="com.zbdx.xyzp.model.entity.User">
         select * from user where
-        username = #{username}
+        username = #{username} and type_key = 0;
     </select>
 
     <select id="selectRealNameByUsername" resultType="java.lang.String">

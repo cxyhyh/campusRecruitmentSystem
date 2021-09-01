@@ -45,4 +45,9 @@ public class SkillServiceImpl extends ServiceImpl<SkillMapper , Skill> implement
     public Skill selectSkillByUsername(String username) {
         return this.skillMapper.selectSkillByUsername(username);
     }
+
+    @Override
+    public Skill selectByUsername(String username) {
+        return this.baseMapper.selectByUsername(username);
+    }
 }

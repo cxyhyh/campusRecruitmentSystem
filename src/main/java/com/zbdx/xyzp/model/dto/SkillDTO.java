@@ -36,4 +36,9 @@ public class SkillDTO implements Serializable {
      * */
     private String realName;
 
+    /**
+     *用户名
+     * */
+    private String username;
+
 }

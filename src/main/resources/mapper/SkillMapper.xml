@@ -10,6 +10,10 @@
         select * from skill where real_name = #{realName}
     </select>
 
+    <select id="selectByUsername" resultType="com.zbdx.xyzp.model.entity.Skill">
+        select * from skill where username = #{username}
+    </select>
+
     <select id="pageSkill" resultType="com.zbdx.xyzp.model.dto.SkillDTO">
         select * from skill
         where 1=1

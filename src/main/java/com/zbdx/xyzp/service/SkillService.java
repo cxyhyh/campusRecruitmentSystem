@@ -22,4 +22,5 @@ public interface SkillService extends IService<Skill> {
 
     Skill selectSkillByUsername(String username);
 
+    Skill selectByUsername(String username);
 }
