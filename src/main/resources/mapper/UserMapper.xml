@@ -24,6 +24,11 @@
         username = #{username} and type_key = 0;
     </select>
 
+    <select id="selectPhoto" resultType="java.lang.String">
+        select photo from user where
+        username = #{username};
+    </select>
+
     <select id="selectRealNameByUsername" resultType="java.lang.String">
         select real_name from user where
         username = #{username}

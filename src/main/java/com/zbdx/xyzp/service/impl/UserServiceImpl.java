@@ -380,6 +380,13 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         return this.baseMapper.selectByUsername(username);
     }
 
+    @Override
+    public String selectPhoto(String username) {
+        String image = this.baseMapper.selectPhoto(username);
+        String img = getImageStr(image);
+        return "data:iamge/png;base64,"+img;
+    }
+
     private boolean isIdCardExist(String idCard) {
         boolean flag = false;
         QueryWrapper<User> query = new QueryWrapper<>();
@@ -420,14 +427,21 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         try {
             for (User user : list) {
 
-                user.setTypeKey(Constant.TYPEKEY);
-
+                if (user.getTypeKey()==null){
+                    user.setTypeKey(Constant.TYPEKEY);
+                }
                 if (user.getPassword() == null){
                     user.setPassword(Constant.PASSWORD);
                 }
                 user.setRegistTime(new Date());
                 user.setAge(DateUtils.getAge(user.getBirth()));
-                user.setPhoto("http://photocq.photo.store.qq.com/psc?/V10Coxr741CNCo/PF0gTXIfeYSjJmkdy2Sn0L8oDlvhXhYIhjwwjqzhPZHG3QY60X*zWof10UOxEEp4Pc0200PmKnRvzwKq3EcBLA!!/mnull&bo=4AHgAQAAAAABByA!&rf=photolist&t=5");
+                if (user.getSex().equals("男")){
+                    user.setPhoto(Constant.PHOTO_MAN);
+                }
+                else {
+                    user.setPhoto(Constant.PHOTO_WOMAN);
+                }
+
                 boolean save = this.save(user);
                Skill skill = new Skill();
                skill.setUsername(user.getUsername());

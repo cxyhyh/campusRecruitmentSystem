@@ -24,6 +24,13 @@ public class Constant {
     public static final String EXCEL_TEMP_PATH = "classpath:template/static/excel/";
 
     /**
+     * 默认用户头像 男 女
+     */
+    public static final String PHOTO_MAN = "http://bpic.588ku.com/element_origin_min_pic/00/85/67/3156e965da25551.jpg";
+
+    public static final String PHOTO_WOMAN = "";
+
+    /**
      * 审核状态：0，未审核，1，审核通过，2，审核未通过
      */
     public static final Integer WITHOUT_APPLICATION = 0;
@@ -31,7 +38,5 @@ public class Constant {
     public static final Integer APPLICATION_PASS = 1;
 
     public static final Integer APPLICATION_NOT_PASS = 2;
-
-
 
 }

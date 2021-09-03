@@ -52,4 +52,6 @@ public interface UserService extends IService<User> {
     void exportUserToWord(String username, HttpServletRequest request, HttpServletResponse response);
 
     User selectByUsername(String username);
+
+    String selectPhoto(String username);
 }

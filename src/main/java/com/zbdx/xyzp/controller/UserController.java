@@ -4,11 +4,19 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.google.common.collect.Maps;
+import com.zbdx.xyzp.constant.Constant;
 import com.zbdx.xyzp.mapper.UserMapper;
 import com.zbdx.xyzp.model.dto.UserDTO;
+import com.zbdx.xyzp.model.entity.SelfEvaluation;
+import com.zbdx.xyzp.model.entity.Skill;
 import com.zbdx.xyzp.model.entity.User;
+import com.zbdx.xyzp.model.entity.WorkExperience;
+import com.zbdx.xyzp.service.SelfEvaluationService;
+import com.zbdx.xyzp.service.SkillService;
 import com.zbdx.xyzp.service.UserService;
+import com.zbdx.xyzp.service.WorkExperienceService;
 import com.zbdx.xyzp.util.DateTimeUtils;
+import com.zbdx.xyzp.util.DateUtils;
 import com.zbdx.xyzp.util.ExcelTool;
 import com.zbdx.xyzp.util.Result;
 import com.zhxd.common.web.Response;
@@ -41,6 +49,12 @@ public class UserController {
     private UserService userService;
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private SkillService skillService;
+    @Autowired
+    private SelfEvaluationService selfEvaluationService;
+    @Autowired
+    private WorkExperienceService workExperienceService;
 
     @CrossOrigin
     @ApiOperation("用户登录")
@@ -64,6 +78,12 @@ public class UserController {
         return Result.success(userService.selectByName(username));
     }
 
+    @ApiOperation("根据用户名称获取头像")
+    @GetMapping("/selectPhoto")
+    public Result selectPhoto(String username){
+        return Result.success(userService.selectPhoto(username));
+    }
+
     @ApiOperation("根据密码名称查询")
     @GetMapping("/selectByPassword")
     public Result selectByPassword(String username,String password){
@@ -72,9 +92,27 @@ public class UserController {
 
     @ApiOperation("新增用户")
     @PostMapping("/addUser")
-    public Result addUser(@RequestBody User user){
+    public Result addUser(@RequestBody User user) throws Exception {
         Date date = new Date();
         user.setRegistTime(date);
+        user.setAge(DateUtils.getAge(user.getBirth()));
+        if (user.getSex().equals("男")){
+            user.setPhoto(Constant.PHOTO_MAN);
+        }
+        else {
+            user.setPhoto(Constant.PHOTO_WOMAN);
+        }
+        Skill skill = new Skill();
+        skill.setUsername(user.getUsername());
+        skillService.save(skill);
+
+        WorkExperience workExperience = new WorkExperience();
+        workExperience.setUsername(user.getUsername());
+        workExperienceService.save(workExperience);
+
+        SelfEvaluation selfEvaluation = new SelfEvaluation();
+        selfEvaluation.setUsername(user.getUsername());
+        selfEvaluationService.save(selfEvaluation);
         return Result.success(userService.save(user));
     }
 
