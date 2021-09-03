@@ -2,15 +2,14 @@ package com.zbdx.xyzp.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.google.common.collect.Maps;
 import com.zbdx.xyzp.constant.Constant;
 import com.zbdx.xyzp.mapper.UserMapper;
 import com.zbdx.xyzp.model.dto.UserDTO;
-import com.zbdx.xyzp.model.entity.SelfEvaluation;
-import com.zbdx.xyzp.model.entity.Skill;
-import com.zbdx.xyzp.model.entity.User;
-import com.zbdx.xyzp.model.entity.WorkExperience;
+import com.zbdx.xyzp.model.entity.*;
 import com.zbdx.xyzp.service.SelfEvaluationService;
 import com.zbdx.xyzp.service.SkillService;
 import com.zbdx.xyzp.service.UserService;
@@ -29,6 +28,8 @@ import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.constraints.NotBlank;
@@ -82,6 +83,30 @@ public class UserController {
     @GetMapping("/selectPhoto")
     public Result selectPhoto(String username){
         return Result.success(userService.selectPhoto(username));
+    }
+
+    @ApiOperation("根据用户名称获取头像")
+    @PostMapping("/updatePhoto")
+    public String updatePhoto(MultipartFile file, HttpServletRequest request,String username){
+        try {
+            String fileDir = "F:" + File.separator + "upload";
+            System.out.println("------->>" + fileDir);
+            File dir = new File(fileDir);
+            if (!dir.exists()) {
+                dir.mkdirs();
+            }
+            String fileName = file.getOriginalFilename();
+            File upload_file = new File(fileDir + File.separator + fileName);
+            file.transferTo(upload_file);
+
+            UpdateWrapper<User> userUpdateWrapper = new UpdateWrapper<>();
+            userUpdateWrapper.set("photo",fileDir + File.separator + fileName).eq("username",username);
+            userService.update(userUpdateWrapper);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "上传失败";
+        }
+        return "上传成功";
     }
 
     @ApiOperation("根据密码名称查询")
