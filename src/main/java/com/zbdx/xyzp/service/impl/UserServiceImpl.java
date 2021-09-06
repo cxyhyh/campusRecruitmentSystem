@@ -302,9 +302,10 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     }
 
     @Override
-    public void exportUserToWord(String username, HttpServletRequest request, HttpServletResponse response) {
+    public void exportUserToWord(String username,HttpServletRequest request, HttpServletResponse response) {
 
             User user = this.selectByUsername(username);
+            String fileName = user.getRealName()+"简历";
 
             String RealName = this.userMapper.selectRealNameByUsername(username);
             Skill skill = skillService.selectByUsername(username);
@@ -342,7 +343,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
                 list.add(mapList);
             }
             map.put("workExperienceList", list);
-            wordUtils.exportWord(request, response, user.getRealName()+"简历", "用户.ftl", map);
+            wordUtils.exportWord(request, response, fileName, "用户.ftl", map);
 
     }
 

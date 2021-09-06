@@ -49,7 +49,7 @@ public interface UserService extends IService<User> {
 
     List<Map<String,Object>> getRoleTypeNum();
 
-    void exportUserToWord(String username, HttpServletRequest request, HttpServletResponse response);
+    void exportUserToWord(String username,HttpServletRequest request, HttpServletResponse response);
 
     User selectByUsername(String username);
 

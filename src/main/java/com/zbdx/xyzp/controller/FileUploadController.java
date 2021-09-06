@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.net.URLEncoder;
+
+
 @Controller
 @RequestMapping("/file")
 @CrossOrigin("http://localhost:8081")
@@ -80,4 +82,5 @@ public class FileUploadController {
             }
         }
     }
+
 }

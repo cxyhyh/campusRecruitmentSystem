@@ -12,7 +12,7 @@
     <artifactId>campusRecruitmentSystem</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>campus-recruitment</name>
-    <description>Demo project for Spring Boot</description>
+    <description>校园招聘管理系统</description>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>2020.0.1</spring-cloud.version>
@@ -72,19 +72,22 @@
             <artifactId>swagger-annotations</artifactId>
             <version>1.5.13</version>
         </dependency>
-        <dependency>
-            <groupId>com.zbdx</groupId>
-            <artifactId>xyzp</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.zbdx</groupId>-->
+<!--            <artifactId>xyzp</artifactId>-->
+<!--            <version>0.0.1-SNAPSHOT</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>4.1.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.openoffice</groupId>
+            <artifactId>ridl</artifactId>
+            <version>3.2.1</version>
+        </dependency>
     </dependencies>
-
-
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -96,6 +99,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-
 </project>

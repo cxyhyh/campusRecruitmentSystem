@@ -1,0 +1,980 @@
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 10:54:34.101 WARN 23604 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d15h4m17s529ms696µs799ns).
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 10:56:40.604 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 11:01:40.618 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 11:06:40.631 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 11:11:40.645 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 11:16:40.651 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 11:21:40.667 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 11:26:40.671 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 11:31:40.681 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 11:36:40.688 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 11:41:40.696 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 11:46:40.698 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 11:51:40.703 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 11:56:40.717 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 12:01:40.732 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 12:06:40.739 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 12:11:40.748 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 12:16:40.757 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 12:21:40.758 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 12:26:40.776 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 12:31:40.789 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 12:36:40.794 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 12:41:40.801 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 12:46:40.808 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 12:51:40.821 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 12:56:40.826 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:01:40.842 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:06:40.852 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:11:40.876 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:16:40.887 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:21:40.901 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:26:40.908 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:31:40.921 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:36:40.931 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:41:40.932 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:46:40.942 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:51:40.957 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:56:40.959 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:56:42.661 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/login?username=hyh&password=123456&yzmcode=cpor,Y,24ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:56:49.599 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/login?username=hyh&password=123456&yzmcode=cp0r,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:56:49.609 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectRoleTypeByName?username=hyh,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:56:51.014 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,1354ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:57:03.745 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectByName?username=hyh,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:57:03.859 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,118ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:57:10.102 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectByName?username=hyh,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:57:10.199 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,106ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:57:16.689 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectByName?username=hyh,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:57:16.800 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,115ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:57:44.477 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectByName?username=hyh,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:57:44.582 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,108ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:58:28.796 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectByName?username=hyh,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:58:28.988 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,194ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:58:39.493 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectByName?username=hyh,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:58:39.594 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,105ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 13:58:41.241 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,69ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:01:40.966 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:06:40.974 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:11:40.988 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:16:40.995 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:21:41.153 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:26:41.157 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:30:20.324 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,211ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:31:41.168 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:36:41.182 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:41:33.867 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,1367ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:41:41.183 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:42:28.999 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,100ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:42:55.287 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,118ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:45:49.745 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,171ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:46:41.192 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:51:41.196 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:56:05.442 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,161ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:56:41.210 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 14:59:15.414 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,163ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:01:04.879 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,151ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:01:41.228 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:04:11.636 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:04:11.645 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:04:11.667 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,35ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:04:15.400 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:04:15.405 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:04:15.407 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:04:15.414 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=4,Y,21ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:04:17.815 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyType,Y,20ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:04:17.824 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/pageCompany?current=1&size=4,Y,31ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:04:17.832 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getLocation,Y,34ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:05:25.627 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyType,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:05:25.631 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/pageCompany?current=1&size=4,Y,12ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:05:25.646 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getLocation,Y,21ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:05:25.799 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,182ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:05:28.220 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:05:28.221 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:05:28.224 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,10ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:06:41.234 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:06:52.986 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/login?username=wq&password=1234567&yzmcode=glrn,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:06:52.995 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectRoleTypeByName?username=wq,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:06:53.136 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=wq,Y,103ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:06:55.441 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyName,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:06:55.450 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/pageCompany?current=1&size=8,Y,17ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:06:55.457 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:06:55.475 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getLocation,Y,21ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:06:56.621 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:06:56.622 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=8,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:06:56.629 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:06:56.629 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:07:05.253 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:07:05.253 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:07:05.257 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=8,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:07:05.259 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:07:07.730 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/jobAndCompanyDetailByjobName?jobName=JAVA开发工程师,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:07:07.735 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getUsernameAndApplicationPosition?username=wq&applicationPosition=JAVA开发工程师,Y,11ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:07:13.227 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:07:13.231 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=8,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:07:13.251 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:07:13.263 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:07:13.401 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=wq,Y,140ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:07:33.576 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyName,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:07:33.578 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/pageCompany?current=1&size=8,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:07:33.581 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:07:33.605 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getLocation,Y,23ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:07.305 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:07.308 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=8,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:07.314 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:07.323 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:09.869 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/jobAndCompanyDetailByjobName?jobName=JAVA开发工程师,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:09.870 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getUsernameAndApplicationPosition?username=wq&applicationPosition=JAVA开发工程师,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:17.598 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:17.604 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=8,Y,10ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:17.608 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:17.609 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:17.747 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=wq,Y,140ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:19.660 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getUsernameAndApplicationPosition?username=wq&applicationPosition=运维工程师,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:19.661 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/jobAndCompanyDetailByjobName?jobName=运维工程师,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:20.617 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:20.620 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:20.627 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:20.646 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=8,Y,33ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:20.748 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=wq,Y,126ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:27.940 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectByName?username=wq,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:28.047 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=wq,Y,111ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:30.499 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:30.506 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:30.506 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=8,Y,12ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:30.512 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:30.632 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=wq,Y,124ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:33.587 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=8&educationRequirement=不限,Y,11ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:08:34.872 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=8,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:11:41.237 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:14:23.762 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:14:23.764 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=8,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:14:23.766 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:14:23.772 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:14:24.061 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=wq,Y,293ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:16:41.249 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:17:38.416 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/login?username=lxm&password=123&yzmcode=06w9,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:17:43.304 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/login?username=lxm&password=123&yzmcode=06wq,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:17:43.310 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectRoleTypeByName?username=lxm,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:17:44.706 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=lxm,Y,1367ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:20:51.295 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=lxm,Y,1412ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:21:17.251 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=lxm,Y,108ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:21:41.264 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:26:41.268 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:27:11.966 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=lxm,Y,205ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:27:40.519 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=lxm,Y,85ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:28:21.327 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=lxm,Y,104ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:28:57.744 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=lxm,Y,149ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:31:41.280 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:31:52.558 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=lxm,Y,103ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:39:56.234 WARN 23604 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m44s476ms179µs100ns).
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:40:14.307 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/login?username=hyh&password=123456&yzmcode=fiAu,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:40:21.160 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/login?username=hyh&password=123456&yzmcode=fi4u,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:40:21.167 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectRoleTypeByName?username=hyh,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:40:21.330 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,130ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:41:55.656 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:46:55.663 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:47:30.964 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:47:30.965 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:47:30.969 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,12ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:51:55.672 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:56:55.682 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:58:17.788 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,33ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:58:17.792 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,33ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:58:17.801 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,45ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 15:58:17.829 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,69ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:01:55.684 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:03:48.652 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,14ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:03:48.652 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:03:48.660 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:05:48.906 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,10ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:05:48.937 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,35ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:05:48.948 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,48ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:05:48.958 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,48ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:05:56.435 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:05:56.440 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,13ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:05:56.443 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:05:57.348 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:05:57.351 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=4,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:05:57.356 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:05:57.356 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:05:58.475 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyType,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:05:58.478 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/pageCompany?current=1&size=4,Y,10ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:05:58.514 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getLocation,Y,33ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:06:09.486 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,14ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:06:09.491 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,24ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:06:12.892 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:06:12.900 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:06:12.902 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:06:55.689 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:08:31.167 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:08:31.168 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:08:31.175 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,12ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:08:31.326 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,176ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:11:55.692 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:16:55.703 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:21:55.708 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:26:55.714 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:31:55.728 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:33:55.516 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:33:55.519 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,11ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:33:55.522 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:33:55.626 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,119ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:34:23.964 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,10ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:34:23.964 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:34:23.966 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,13ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:34:24.047 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,95ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:35:13.798 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:35:13.802 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:35:13.802 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:35:13.897 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,112ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:35:54.232 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:35:54.233 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:35:54.236 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:35:54.331 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,107ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:36:55.739 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:41:55.753 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:46:55.755 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:51:55.759 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:53:05.336 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,11ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:53:05.339 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,17ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:53:05.341 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,16ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:53:05.518 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,197ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:53:34.240 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:53:34.243 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:53:34.244 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:53:34.326 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,93ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:53:47.058 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:53:47.060 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:53:47.060 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:53:47.148 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,97ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:56:55.772 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:58:45.928 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:58:45.931 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,10ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:58:45.932 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 16:58:46.119 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,200ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:00:41.773 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,12ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:00:41.781 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,15ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:00:41.787 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,23ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:00:41.801 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,29ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:00:44.921 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:00:44.921 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:00:44.921 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:04.644 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,12ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:04.658 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,14ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:04.660 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,23ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:04.679 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,32ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:05.521 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:05.521 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:05.525 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:36.187 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,11ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:36.204 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,24ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:36.209 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,16ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:36.222 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,29ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:36.917 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:36.920 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:36.922 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:42.689 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:42.690 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=4,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:42.695 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:42.696 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:48.118 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyType,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:48.120 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/pageCompany?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:48.135 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getLocation,Y,21ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:01:55.781 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:10.894 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/pageCompany?current=1&size=4,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:10.895 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:10.921 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getLocation,Y,28ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:11.015 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,131ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:11.195 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,11ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:11.205 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,14ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:11.210 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,24ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:11.229 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,32ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:37.880 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,10ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:37.887 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,12ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:37.899 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,25ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:37.934 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,51ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:37.973 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,105ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:42.029 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:42.031 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:42.033 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:43.407 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,15ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:43.415 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,19ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:43.419 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,26ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:03:43.436 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,26ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:04:38.366 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:04:38.389 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,32ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:04:38.411 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,53ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:04:38.432 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,63ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:04:38.510 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,160ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:04:46.156 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:04:46.158 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:04:46.159 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:13.274 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:13.279 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:13.288 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,19ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:13.302 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,27ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:19.913 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,10ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:19.921 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,13ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:19.923 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,19ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:19.941 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,25ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:21.010 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,1108ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:47.281 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:47.300 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,23ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:47.310 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,33ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:47.321 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,42ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:47.375 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,106ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:49.614 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:49.616 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:05:49.616 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:06:34.007 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:06:34.007 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:06:34.012 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:06:34.123 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,124ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:06:55.786 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:07:08.953 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:07:08.953 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:07:08.957 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:07:09.056 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,112ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:07:10.160 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:07:10.168 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,14ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:07:10.174 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,21ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:07:10.187 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,26ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:07:12.261 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:07:12.262 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:07:12.263 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:34.023 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:34.026 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:34.028 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,10ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:34.119 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,102ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:35.417 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,12ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:35.428 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,20ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:35.430 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,24ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:35.441 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,32ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:37.665 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:37.666 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:37.667 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:45.494 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:45.494 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:45.494 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:45.573 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,88ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:46.831 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:46.842 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,17ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:46.844 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:46.864 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,28ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:50.942 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:50.945 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:08:50.945 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:09:03.371 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:09:03.373 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:09:03.373 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:09:03.455 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,91ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:09:05.610 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:09:05.617 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,12ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:09:05.624 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,20ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:09:05.637 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,27ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:09:08.201 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:09:08.202 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:09:08.204 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:09:09.404 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:09:09.405 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:09:09.408 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:09:09.409 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=4,Y,13ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:11:53.218 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:11:53.219 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=4,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:11:53.222 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:11:53.228 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:11:53.303 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,92ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:11:55.787 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:15.107 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:15.121 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,21ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:15.123 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,10ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:15.123 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,10ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:15.186 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,89ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:15.811 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:15.818 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,14ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:15.823 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,19ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:15.835 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,21ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:18.838 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:18.840 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:18.841 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:24.067 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:24.082 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,18ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:24.082 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,24ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:12:24.098 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,23ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:16:39.478 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,10ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:16:39.491 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,18ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:16:39.493 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,11ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:16:39.519 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,34ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:16:39.570 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,103ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:16:47.794 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:16:47.810 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,20ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:16:47.816 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,25ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:16:47.826 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,31ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:16:47.880 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,97ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:16:55.795 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:17:08.169 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,10ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:17:08.177 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,13ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:17:08.182 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,20ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:17:08.197 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,26ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:17:51.729 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,96ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:17:58.449 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,14ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:17:58.467 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,13ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:17:58.467 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,30ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:17:58.478 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,24ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:18:01.894 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:18:01.896 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:18:01.897 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:18:04.657 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:18:04.664 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,12ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:18:04.676 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,26ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:18:04.688 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,30ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:21:55.803 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:22:34.800 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getStatus,Y,11ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:22:34.811 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/pageApplication?current=1&size=5,Y,25ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:22:34.818 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getApplicationPositionForA,Y,28ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:22:40.563 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:22:40.565 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:22:41.986 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getApplicationPosition,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:22:41.988 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getUserName,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:22:42.003 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/pageJianLi?current=1&size=5,Y,24ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:22:43.110 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getStatus,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:22:43.112 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/pageApplication?current=1&size=5,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:22:43.130 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getApplicationPositionForA,Y,22ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:22:44.993 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:22:44.993 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:22:44.997 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:24.528 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:24.528 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:24.533 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:24.630 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,112ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:25.971 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,10ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:25.978 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,13ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:25.983 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,21ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:25.994 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,26ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:28.509 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:28.510 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:28.511 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:29.452 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:29.459 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,14ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:29.464 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,20ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:29.474 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,28ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:39.152 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:39.165 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,20ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:39.167 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,17ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:39.187 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,35ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:39.244 ERROR 23604 [http-nio-8080-exec-5] com.zhxd.common.exception.DefaultExceptionAdvice 未知异常
+
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:309)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:272)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at java.io.FilterOutputStream.flush(FilterOutputStream.java:140)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1178)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:345)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:277)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.zhxd.common.utils.RequestPerformanceFilter.doFilterInternal(RequestPerformanceFilter.java:29)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:138)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1253)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:717)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:707)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:572)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:220)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1195)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:402)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:305)
+	... 62 common frames omitted
+
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:39.255 WARN 23604 [http-nio-8080-exec-5] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver Failure in @ExceptionHandler com.zhxd.common.exception.DefaultExceptionAdvice#handleException(Exception)
+
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:309)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:272)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at java.io.FilterOutputStream.flush(FilterOutputStream.java:140)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1178)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:345)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:277)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1320)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1131)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1077)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.zhxd.common.utils.RequestPerformanceFilter.doFilterInternal(RequestPerformanceFilter.java:29)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:138)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1253)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:717)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:707)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:572)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:220)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1195)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:402)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:305)
+	... 65 common frames omitted
+
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:39.260 ERROR 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter request failed...
+
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:309)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:272)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at java.io.FilterOutputStream.flush(FilterOutputStream.java:140)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1178)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:345)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:277)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.zhxd.common.utils.RequestPerformanceFilter.doFilterInternal(RequestPerformanceFilter.java:29)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:138)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1253)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:717)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:707)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:572)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:220)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1195)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:402)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:305)
+	... 62 common frames omitted
+
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:39.260 ERROR 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,F,117ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:41.716 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,13ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:41.723 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,16ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:41.725 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,22ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:41.735 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,27ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:41.757 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,56ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:26:55.806 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:27:01.669 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,91ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:28:17.495 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:28:17.526 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,35ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:28:17.555 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,56ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:28:17.570 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,71ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:28:17.625 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,141ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:28:21.991 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:28:21.991 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:28:21.993 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:28:23.838 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:28:23.845 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,13ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:28:23.850 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,20ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:28:23.869 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,29ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:31:55.808 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:07.285 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:07.337 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,60ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:07.342 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,54ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:07.357 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,69ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:07.396 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,125ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:10.052 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:10.054 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:10.057 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:11.371 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:11.372 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:11.372 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=4,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:11.377 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:12.325 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:12.328 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/pageCompany?current=1&size=4,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:12.337 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getLocation,Y,15ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:13.739 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getEnglishSkill,Y,25ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:13.741 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getComputerSkill,Y,25ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:13.743 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/pageSkill?current=1&size=5,Y,30ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:13.745 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getAppliedPosition,Y,28ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:18.195 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getEnglishSkill,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:18.197 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/pageSkill?current=1&size=5,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:18.198 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getComputerSkill,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:18.201 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getAppliedPosition,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:18.274 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,85ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:31.640 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getEnglishSkill,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:31.643 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/pageSkill?current=1&size=5,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:31.648 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getComputerSkill,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:31.648 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getAppliedPosition,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:31.728 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,96ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:33.236 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:33.237 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:35.253 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getUserName,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:35.254 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getApplicationPosition,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:35.254 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/pageJianLi?current=1&size=5,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:37.039 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getStatus,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:37.039 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/pageApplication?current=1&size=5,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:32:37.063 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getApplicationPositionForA,Y,26ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:33:02.284 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/pageApplication?current=1&size=5,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:33:02.285 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getStatus,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:33:02.305 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getApplicationPositionForA,Y,21ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:33:02.383 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,103ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:20.697 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:20.697 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:20.699 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:22.391 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:22.392 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:22.392 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=4,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:22.398 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:23.325 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:23.326 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/pageCompany?current=1&size=4,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:23.358 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getLocation,Y,33ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:51.410 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:51.413 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:52.531 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/pageJianLi?current=1&size=5,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:52.533 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getUserName,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:52.532 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getApplicationPosition,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:53.609 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/pageApplication?current=1&size=5,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:53.610 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getStatus,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:53.631 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getApplicationPositionForA,Y,20ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:56.511 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:56.513 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:57.109 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getUserName,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:57.113 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getApplicationPosition,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:57.113 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/pageJianLi?current=1&size=5,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:57.804 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/pageApplication?current=1&size=5,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:57.805 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getStatus,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:57.826 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getApplicationPositionForA,Y,21ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:59.567 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:59.570 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:35:59.572 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:36:12.364 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,12ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:36:12.370 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,12ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:36:12.376 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,21ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:36:12.387 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,21ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:36:14.767 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:36:14.767 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:36:14.770 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:36:55.809 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:37:59.209 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:37:59.210 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:37:59.212 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:37:59.298 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,103ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:39:22.142 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:39:22.142 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:39:22.142 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:39:22.250 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,116ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:39:28.802 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,10ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:39:28.815 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,19ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:39:28.816 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,23ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:39:28.825 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,27ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:39:34.974 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:39:34.988 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,19ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:40:20.112 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:40:20.114 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:40:20.114 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:41:55.826 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:00.903 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:00.905 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:02.020 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getUserName,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:02.021 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getApplicationPosition,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:02.021 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/pageJianLi?current=1&size=5,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:02.680 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getStatus,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:02.680 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/pageApplication?current=1&size=5,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:02.696 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getApplicationPositionForA,Y,15ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:04.175 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:04.178 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:04.178 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:05.605 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:05.607 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=4,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:05.609 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:05.610 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:07.602 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyType,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:07.602 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/pageCompany?current=1&size=4,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:07.630 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getLocation,Y,29ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:08.975 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getComputerSkill,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:08.975 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getEnglishSkill,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:08.980 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/pageSkill?current=1&size=5,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:43:08.981 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getAppliedPosition,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:38.088 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/pageSkill?current=1&size=5,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:38.089 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getEnglishSkill,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:38.095 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getComputerSkill,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:38.095 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getAppliedPosition,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:38.207 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,128ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:39.658 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/pageApplication?current=1&size=5,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:39.658 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getStatus,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:39.680 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getApplicationPositionForA,Y,20ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:42.685 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getUserName,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:42.687 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/pageJianLi?current=1&size=5,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:42.688 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getApplicationPosition,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:44.716 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:44.716 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:44.717 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:45.632 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:45.633 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=4,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:45.633 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:45.638 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:46.301 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:46.303 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/pageCompany?current=1&size=4,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:46.320 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getLocation,Y,22ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:47.750 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getEnglishSkill,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:47.751 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getComputerSkill,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:47.751 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/pageSkill?current=1&size=5,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:47.754 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getAppliedPosition,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:46:55.833 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:47:51.110 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getEnglishSkill,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:47:51.111 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/pageSkill?current=1&size=5,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:47:51.112 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getComputerSkill,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:47:51.113 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getAppliedPosition,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:47:51.205 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,102ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:47:56.444 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:47:56.444 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:47:56.448 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:48:09.283 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:48:09.283 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:48:09.283 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:48:09.374 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,100ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:48:15.110 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:48:15.112 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:48:15.112 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:48:15.204 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,101ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:48:18.376 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:48:18.386 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,15ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:48:18.388 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,20ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:48:18.401 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,23ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:48:33.798 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:48:33.799 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:51:55.835 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:54:15.363 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:54:15.365 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:54:15.487 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,134ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:55:10.518 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:55:10.519 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:55:10.611 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,100ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:55:34.709 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:55:34.709 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:55:34.805 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,103ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:56:55.842 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:57:10.786 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:57:10.790 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 17:57:10.883 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,103ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:01:55.843 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:03:16.571 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:03:16.571 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:03:16.668 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,105ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:03:33.531 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:03:33.534 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:03:33.619 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,95ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:03:52.631 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:03:52.634 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:03:52.831 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,211ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:23.201 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,17ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:23.203 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,20ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:23.346 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,175ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:25.070 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getUserName,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:25.070 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/pageJianLi?current=1&size=5,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:25.075 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getApplicationPosition,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:26.333 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/pageApplication?current=1&size=5,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:26.333 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getStatus,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:26.349 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getApplicationPositionForA,Y,14ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:27.786 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:27.787 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:27.789 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:28.665 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:28.665 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:28.666 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=4,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:28.670 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:30.041 INFO 23604 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:30.042 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/pageCompany?current=1&size=4,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:30.061 INFO 23604 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getLocation,Y,22ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:31.150 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getEnglishSkill,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:31.151 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getComputerSkill,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:31.151 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/pageSkill?current=1&size=5,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:31.153 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getAppliedPosition,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:38.370 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getUserName,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:38.372 INFO 23604 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/pageJianLi?current=1&size=5,Y,5ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:04:38.376 INFO 23604 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getApplicationPosition,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:06:55.859 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:11:55.861 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:15:36.402 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getUserName,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:15:36.403 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/pageJianLi?current=1&size=5,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:15:36.407 INFO 23604 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getApplicationPosition,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:15:36.489 INFO 23604 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,92ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:16:55.064 INFO 23604 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getUserName,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:16:55.067 INFO 23604 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/pageJianLi?current=1&size=5,Y,13ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:16:55.069 INFO 23604 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getApplicationPosition,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:16:55.151 INFO 23604 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,98ms,200]
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:16:55.868 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-05 18:21:55.883 INFO 23604 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration

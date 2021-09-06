@@ -79,13 +79,19 @@ public class UserController {
         return Result.success(userService.selectByName(username));
     }
 
+    @ApiOperation("根据用户名称查询")
+    @GetMapping("/selectByUsername")
+    public Result selectByUsername(String username){
+        return Result.success(userService.selectByUsername(username));
+    }
+
     @ApiOperation("根据用户名称获取头像")
     @GetMapping("/selectPhoto")
     public Result selectPhoto(String username){
         return Result.success(userService.selectPhoto(username));
     }
 
-    @ApiOperation("根据用户名称获取头像")
+    @ApiOperation("根据用户名称更新头像")
     @PostMapping("/updatePhoto")
     public String updatePhoto(MultipartFile file, HttpServletRequest request,String username){
         try {
@@ -174,7 +180,6 @@ public class UserController {
         return Result.success(userService.saveOrUpdate(user));
     }
 
-
     @ApiOperation("根据id删除用户")
     @GetMapping("/deleteUser")
     public Result deleteUser(int id){
@@ -213,11 +218,9 @@ public class UserController {
 
     @ApiOperation("根据真实姓名查询用户类型为普通用户信息和技能信息")
     @GetMapping("/getUserAndSkill")
-    public Result getUserAndSkill(Page<UserDTO> page ,UserDTO userDTO
-    ){
+    public Result getUserAndSkill(Page<UserDTO> page ,UserDTO userDTO){
         return Result.success(userService.getUserAndSkill(page, userDTO));
     }
-
 
     @ApiOperation("根据当前用户名修改用户信息")
     @GetMapping("/editUserByUsername")
@@ -230,7 +233,6 @@ public class UserController {
     public Result getRoleTypeNum(){
         return Result.success(userService.getRoleTypeNum());
     }
-
 
     @ApiOperation("导入用户信息")
     @PostMapping("/importUser")
