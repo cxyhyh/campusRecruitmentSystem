@@ -1217,3 +1217,425 @@ java.lang.NullPointerException: null
 [CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-06 17:26:45.322 INFO 14360 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
 [CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-06 17:31:45.334 INFO 14360 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
 [CampusRecruitmentSystem-192.168.153.1-8080] 2021-09-06 17:36:45.339 INFO 14360 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:34.216 INFO 5784 [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.7.Final
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:34.233 INFO 5784 [restartedMain] com.zbdx.xyzp.CampusRecruitmentSystemApplication Starting CampusRecruitmentSystemApplication using Java 1.8.0_151 on LAPTOP-K0FC98FE with PID 5784 (F:\mygit\campusRecruitmentSystem\target\classes started by hyh in F:\mygit\campusRecruitmentSystem)
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:34.234 INFO 5784 [restartedMain] com.zbdx.xyzp.CampusRecruitmentSystemApplication The following profiles are active: dev
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:34.293 WARN 5784 [restartedMain] org.springframework.boot.context.config.ConfigDataEnvironment Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 50:13]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:34.293 WARN 5784 [restartedMain] org.springframework.boot.context.config.ConfigDataEnvironment Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:34.293 WARN 5784 [restartedMain] org.springframework.boot.context.config.ConfigDataEnvironment Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 30:13]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:34.294 INFO 5784 [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:34.295 INFO 5784 [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.233 WARN 5784 [restartedMain] org.mybatis.spring.mapper.ClassPathMapperScanner No MyBatis mapper was found in '[com.zbdx.xyzp]' package. Please check your configuration.
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.581 WARN 5784 [restartedMain] org.mybatis.spring.mapper.ClassPathMapperScanner Skipping MapperFactoryBean with name 'applicationMapper' and 'com.zbdx.xyzp.mapper.ApplicationMapper' mapperInterface. Bean already defined with the same name!
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.581 WARN 5784 [restartedMain] org.mybatis.spring.mapper.ClassPathMapperScanner Skipping MapperFactoryBean with name 'companyMapper' and 'com.zbdx.xyzp.mapper.CompanyMapper' mapperInterface. Bean already defined with the same name!
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.581 WARN 5784 [restartedMain] org.mybatis.spring.mapper.ClassPathMapperScanner Skipping MapperFactoryBean with name 'jianliMapper' and 'com.zbdx.xyzp.mapper.JianliMapper' mapperInterface. Bean already defined with the same name!
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.581 WARN 5784 [restartedMain] org.mybatis.spring.mapper.ClassPathMapperScanner Skipping MapperFactoryBean with name 'jobMapper' and 'com.zbdx.xyzp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.581 WARN 5784 [restartedMain] org.mybatis.spring.mapper.ClassPathMapperScanner Skipping MapperFactoryBean with name 'roleMapper' and 'com.zbdx.xyzp.mapper.RoleMapper' mapperInterface. Bean already defined with the same name!
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.581 WARN 5784 [restartedMain] org.mybatis.spring.mapper.ClassPathMapperScanner Skipping MapperFactoryBean with name 'selfEvaluationMapper' and 'com.zbdx.xyzp.mapper.SelfEvaluationMapper' mapperInterface. Bean already defined with the same name!
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.581 WARN 5784 [restartedMain] org.mybatis.spring.mapper.ClassPathMapperScanner Skipping MapperFactoryBean with name 'skillMapper' and 'com.zbdx.xyzp.mapper.SkillMapper' mapperInterface. Bean already defined with the same name!
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.581 WARN 5784 [restartedMain] org.mybatis.spring.mapper.ClassPathMapperScanner Skipping MapperFactoryBean with name 'userMapper' and 'com.zbdx.xyzp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.581 WARN 5784 [restartedMain] org.mybatis.spring.mapper.ClassPathMapperScanner Skipping MapperFactoryBean with name 'workExperienceMapper' and 'com.zbdx.xyzp.mapper.WorkExperienceMapper' mapperInterface. Bean already defined with the same name!
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.582 WARN 5784 [restartedMain] org.mybatis.spring.mapper.ClassPathMapperScanner No MyBatis mapper was found in '[com.zbdx.xyzp.mapper]' package. Please check your configuration.
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.651 INFO 5784 [restartedMain] org.springframework.cloud.context.scope.GenericScope BeanFactory id=f7343ae8-66de-3c51-b69c-94bb957d25cd
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.658 INFO 5784 [restartedMain] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Post-processing PropertySource instances
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.702 INFO 5784 [restartedMain] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.703 INFO 5784 [restartedMain] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.703 INFO 5784 [restartedMain] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.703 INFO 5784 [restartedMain] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.703 INFO 5784 [restartedMain] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.703 INFO 5784 [restartedMain] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.703 INFO 5784 [restartedMain] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.703 INFO 5784 [restartedMain] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' (document #1) [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.703 INFO 5784 [restartedMain] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' (document #0) [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:35.703 INFO 5784 [restartedMain] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:36.120 INFO 5784 [restartedMain] com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:36.122 INFO 5784 [restartedMain] com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:36.703 INFO 5784 [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:36.713 INFO 5784 [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:36.714 INFO 5784 [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:36.714 INFO 5784 [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:36.812 INFO 5784 [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:36.813 INFO 5784 [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2516 ms
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:36.998 INFO 5784 [restartedMain] com.zhxd.common.utils.RequestPerformanceFilter RequestPerformanceFilter started with threshold:3000ms includeQueryString:true
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:37.192 INFO 5784 [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:37.429 INFO 5784 [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:38.164 INFO 5784 [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:39.017 WARN 5784 [restartedMain] org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:39.071 WARN 5784 [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Unable to start LiveReload server
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:39.439 INFO 5784 [restartedMain] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration Eureka HTTP Client uses RestTemplate.
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:39.503 WARN 5784 [restartedMain] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:39.510 INFO 5784 [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:39.552 INFO 5784 [restartedMain] org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:39.613 INFO 5784 [restartedMain] com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:39.618 INFO 5784 [restartedMain] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:39.836 INFO 5784 [restartedMain] com.netflix.discovery.DiscoveryClient Disable delta property : false
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:39.836 INFO 5784 [restartedMain] com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:39.836 INFO 5784 [restartedMain] com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:39.836 INFO 5784 [restartedMain] com.netflix.discovery.DiscoveryClient Application is null : false
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:39.836 INFO 5784 [restartedMain] com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:39.836 INFO 5784 [restartedMain] com.netflix.discovery.DiscoveryClient Application version is -1: true
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:39.836 INFO 5784 [restartedMain] com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:40.433 INFO 5784 [restartedMain] com.netflix.discovery.DiscoveryClient The response status is 200
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:40.434 INFO 5784 [restartedMain] com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 30
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:40.437 INFO 5784 [restartedMain] com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:40.442 INFO 5784 [restartedMain] com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1631356060441 with initial instances count: 0
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:40.444 INFO 5784 [restartedMain] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application CAMPUSRECRUITMENTSYSTEM with eureka with status UP
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:40.445 INFO 5784 [restartedMain] com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1631356060445, current=UP, previous=STARTING]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:40.447 INFO 5784 [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient DiscoveryClient_CAMPUSRECRUITMENTSYSTEM/LAPTOP-K0FC98FE:CampusRecruitmentSystem:8080: registering service...
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:40.450 INFO 5784 [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:40.475 INFO 5784 [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:40.476 INFO 5784 [restartedMain] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8080
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:40.637 INFO 5784 [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient DiscoveryClient_CAMPUSRECRUITMENTSYSTEM/LAPTOP-K0FC98FE:CampusRecruitmentSystem:8080 - registration status: 204
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:27:40.859 INFO 5784 [restartedMain] com.zbdx.xyzp.CampusRecruitmentSystemApplication Started CampusRecruitmentSystemApplication in 7.567 seconds (JVM running for 9.047)
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:28:10.438 INFO 5784 [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient Disable delta property : false
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:28:10.439 INFO 5784 [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:28:10.439 INFO 5784 [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:28:10.439 INFO 5784 [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient Application is null : false
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:28:10.439 INFO 5784 [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:28:10.439 INFO 5784 [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient Application version is -1: false
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:28:10.440 INFO 5784 [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:28:10.521 INFO 5784 [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient The response status is 200
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:29:11.946 INFO 5784 [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:29:11.946 INFO 5784 [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:29:11.947 INFO 5784 [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:29:11.974 INFO 5784 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [192.168.66.102 GET__/sockjs-node/info?t=1631356151888,Y,19ms,404]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:08.296 INFO 5784 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/login?username=hyh&password=123456&yzmcode=mr12,Y,102ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:16.640 INFO 5784 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/login?username=hyh&password=123456&yzmcode=mrl2,Y,9ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:16.650 INFO 5784 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectRoleTypeByName?username=hyh,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:16.779 INFO 5784 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,110ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:18.292 INFO 5784 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,39ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:18.296 INFO 5784 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,42ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:18.303 INFO 5784 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,49ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:18.327 INFO 5784 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,73ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:19.457 INFO 5784 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,11ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:19.549 INFO 5784 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,103ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:20.501 INFO 5784 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyTypeNum,Y,15ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:20.505 INFO 5784 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getRoleTypeNum,Y,19ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:20.509 INFO 5784 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobTypeNum,Y,23ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:20.521 INFO 5784 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPositionNum,Y,35ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:21.734 INFO 5784 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/getRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:21.737 INFO 5784 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/role/pageRole?current=1&size=5,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:22.466 INFO 5784 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getApplicationPosition,Y,19ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:22.466 INFO 5784 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getUserName,Y,19ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:22.471 INFO 5784 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/pageJianLi?current=1&size=5,Y,24ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:23.563 INFO 5784 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getStatus,Y,22ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:23.563 INFO 5784 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/getApplicationPositionForA,Y,22ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:23.563 INFO 5784 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/application/pageApplication?current=1&size=5,Y,22ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:25.102 INFO 5784 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getEducation,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:25.102 INFO 5784 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/getUserRoleType,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:25.120 INFO 5784 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/pageUser?current=1&size=4,Y,21ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:27.674 INFO 5784 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getWorkPosition,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:27.674 INFO 5784 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getEducationRequirement,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:27.677 INFO 5784 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/getJobType,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:27.683 INFO 5784 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/job/pageJob?current=1&size=4,Y,13ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:28.878 INFO 5784 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getCompanyType,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:28.880 INFO 5784 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/getLocation,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:28.887 INFO 5784 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/company/pageCompany?current=1&size=4,Y,13ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:29.544 INFO 5784 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getComputerSkill,Y,23ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:29.544 INFO 5784 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getEnglishSkill,Y,23ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:29.545 INFO 5784 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/getAppliedPosition,Y,24ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:29.547 INFO 5784 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/skill/pageSkill?current=1&size=5,Y,25ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:32.219 INFO 5784 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getUserName,Y,4ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:32.222 INFO 5784 [http-nio-8080-exec-9] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/pageJianLi?current=1&size=5,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:32.222 INFO 5784 [http-nio-8080-exec-6] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/jianli/getApplicationPosition,Y,7ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:52.954 INFO 5784 [http-nio-8080-exec-4] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/login?username=wq&password=1234567&yzmcode=0p5u,Y,6ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:52.958 INFO 5784 [http-nio-8080-exec-10] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectRoleTypeByName?username=wq,Y,2ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:52.982 ERROR 5784 [http-nio-8080-exec-2] com.zbdx.xyzp.service.impl.UserServiceImpl IO操作图片错误
+
+java.io.FileNotFoundException: F:\files\fcc86da22b5b0ae2787c2a16715941a.png (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl.getImageStr(UserServiceImpl.java:364)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl.selectPhoto(UserServiceImpl.java:387)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$6e3dcd47.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$dc9d6148.selectPhoto(<generated>)
+	at com.zbdx.xyzp.controller.UserController.selectPhoto(UserController.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.zhxd.common.utils.RequestPerformanceFilter.doFilterInternal(RequestPerformanceFilter.java:29)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:52.983 INFO 5784 [http-nio-8080-exec-3] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectByUsername?username=wq,Y,8ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:52.988 ERROR 5784 [http-nio-8080-exec-2] com.zhxd.common.exception.DefaultExceptionAdvice 未知异常
+
+java.lang.NullPointerException: null
+	at java.io.ByteArrayInputStream.<init>(ByteArrayInputStream.java:106)
+	at sun.misc.CharacterEncoder.encode(CharacterEncoder.java:188)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl.getImageStr(UserServiceImpl.java:375)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl.selectPhoto(UserServiceImpl.java:387)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$6e3dcd47.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$dc9d6148.selectPhoto(<generated>)
+	at com.zbdx.xyzp.controller.UserController.selectPhoto(UserController.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.zhxd.common.utils.RequestPerformanceFilter.doFilterInternal(RequestPerformanceFilter.java:29)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:52.993 WARN 5784 [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver Resolved [java.lang.NullPointerException]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:52.993 INFO 5784 [http-nio-8080-exec-2] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=wq,Y,18ms,500]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:56.658 ERROR 5784 [http-nio-8080-exec-8] com.zbdx.xyzp.service.impl.UserServiceImpl IO操作图片错误
+
+java.io.FileNotFoundException: F:\files\fcc86da22b5b0ae2787c2a16715941a.png (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl.getImageStr(UserServiceImpl.java:364)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl.exportUserToWord(UserServiceImpl.java:317)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$6e3dcd47.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$dc9d6148.exportUserToWord(<generated>)
+	at com.zbdx.xyzp.controller.UserController.exportUserToWord(UserController.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.zhxd.common.utils.RequestPerformanceFilter.doFilterInternal(RequestPerformanceFilter.java:29)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:56.659 ERROR 5784 [http-nio-8080-exec-8] com.zhxd.common.exception.DefaultExceptionAdvice 未知异常
+
+java.lang.NullPointerException: null
+	at java.io.ByteArrayInputStream.<init>(ByteArrayInputStream.java:106)
+	at sun.misc.CharacterEncoder.encode(CharacterEncoder.java:188)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl.getImageStr(UserServiceImpl.java:375)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl.exportUserToWord(UserServiceImpl.java:317)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$6e3dcd47.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.zbdx.xyzp.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$dc9d6148.exportUserToWord(<generated>)
+	at com.zbdx.xyzp.controller.UserController.exportUserToWord(UserController.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.zhxd.common.utils.RequestPerformanceFilter.doFilterInternal(RequestPerformanceFilter.java:29)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:56.660 WARN 5784 [http-nio-8080-exec-8] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver Resolved [java.lang.NullPointerException]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:30:56.660 INFO 5784 [http-nio-8080-exec-8] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/exportUserToWord?username=wq,Y,26ms,500]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:31:22.510 INFO 5784 [http-nio-8080-exec-7] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/login?username=hyh&password=123456&yzmcode=amev,Y,12ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:31:22.516 INFO 5784 [http-nio-8080-exec-5] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectRoleTypeByName?username=hyh,Y,3ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:31:22.628 INFO 5784 [http-nio-8080-exec-1] com.zhxd.common.utils.RequestPerformanceFilter [0:0:0:0:0:0:0:1 GET__/user/selectPhoto?username=hyh,Y,98ms,200]
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:32:39.853 INFO 5784 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:37:39.858 INFO 5784 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+[CampusRecruitmentSystem-192.168.100.1-8080] 2021-09-11 18:42:39.873 INFO 5784 [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
