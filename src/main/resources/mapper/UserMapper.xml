@@ -125,4 +125,11 @@
 
     </update>
 
+    <update id="updateByUsername" parameterType="java.lang.String">
+        update user
+        set photo = #{dir}
+        where username = #{username}
+
+    </update>
+
 </mapper>

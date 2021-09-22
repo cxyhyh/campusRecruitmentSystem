@@ -93,8 +93,9 @@ public class UserController {
 
     @ApiOperation("根据用户名称更新头像")
     @PostMapping("/updatePhoto")
-    public String updatePhoto(MultipartFile file, HttpServletRequest request,String username){
-        try {
+    @ResponseBody
+    public Result updatePhoto(MultipartFile file, HttpServletRequest request) throws IOException {
+
             String fileDir = "F:" + File.separator + "upload";
             System.out.println("------->>" + fileDir);
             File dir = new File(fileDir);
@@ -105,14 +106,16 @@ public class UserController {
             File upload_file = new File(fileDir + File.separator + fileName);
             file.transferTo(upload_file);
 
-            UpdateWrapper<User> userUpdateWrapper = new UpdateWrapper<>();
-            userUpdateWrapper.set("photo",fileDir + File.separator + fileName).eq("username",username);
-            userService.update(userUpdateWrapper);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return "上传失败";
-        }
-        return "上传成功";
+            String outDir = fileDir + File.separator + fileName;
+
+
+        return Result.success(outDir);
+    }
+
+    @ApiOperation("修改头像")
+    @GetMapping("/updateByUsername")
+    public Result updateByUsername(String username,String dir){
+        return Result.success(userMapper.updateByUsername(username,dir));
     }
 
     @ApiOperation("根据密码名称查询")
@@ -340,5 +343,4 @@ public class UserController {
     public void exportUserToWord(HttpServletRequest request, HttpServletResponse response , String username) {
         userService.exportUserToWord(username,request,response);
     }
-
 }

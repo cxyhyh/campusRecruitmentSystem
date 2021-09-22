@@ -46,4 +46,6 @@ public interface UserMapper extends BaseMapper<User> {
     String selectRealNameByUsername(String username);
 
     String selectPhoto(String username);
+
+    boolean updateByUsername(String username, String dir);
 }
