@@ -12,7 +12,7 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/campusrecruitment?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://121.43.158.100:3306/hyh_project?useUnicode=true&characterEncoding=utf8
     username: root
     password: 123456
 
@@ -33,7 +33,7 @@ server:
 eureka:
   client:
     service-url:
-       defaultZone: http://admin:admin@127.0.0.1:8761/eureka/
+       defaultZone: http://admin:admin@121.43.158.100:8761/eureka/
 
 ---
 spring:
@@ -43,7 +43,7 @@ server:
 eureka:
   client:
     service-url:
-       defaultZone: http://admin:admin@127.0.0.1:8761/eureka/
+       defaultZone: http://admin:admin@121.43.158.100:8761/eureka/
 
 ---
 spring:
@@ -53,4 +53,4 @@ server:
 eureka:
   client:
     service-url:
-       defaultZone: http://admin:admin@127.0.0.1:8761/eureka/
+       defaultZone: http://admin:admin@121.43.158.100:8761/eureka/
