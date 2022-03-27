@@ -29,7 +29,7 @@ mybatis-plus:
 spring:
   profiles: dev
 server:
-  port: 8080
+  port: 9090
 eureka:
   client:
     service-url:
@@ -39,7 +39,7 @@ eureka:
 spring:
   profiles: test
 server:
-  port: 8081
+  port: 9091
 eureka:
   client:
     service-url:
@@ -49,7 +49,7 @@ eureka:
 spring:
   profiles: pro
 server:
-  port: 8082
+  port: 9092
 eureka:
   client:
     service-url:
