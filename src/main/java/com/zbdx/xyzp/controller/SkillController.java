@@ -18,6 +18,7 @@ public class SkillController {
     @Autowired
     private SkillService skillService;
 
+
     @CrossOrigin
     @ApiOperation("新增技能")
     @PostMapping("/addSkill")
