@@ -31,7 +31,7 @@ import java.util.Map;
 @Slf4j
 @RestController
 @RequestMapping("/company")
-@CrossOrigin("http://localhost:8081")
+@CrossOrigin("http://121.43.158.100:8081")
 public class CompanyController {
 
     @Autowired

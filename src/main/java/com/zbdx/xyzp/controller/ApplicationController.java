@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/application")
-@CrossOrigin("http://localhost:8081")
+@CrossOrigin("http://121.43.158.100:8081")
 public class ApplicationController {
 
     @Autowired

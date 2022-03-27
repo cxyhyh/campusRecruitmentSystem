@@ -15,7 +15,7 @@ import java.net.URLEncoder;
 
 @Controller
 @RequestMapping("/file")
-@CrossOrigin("http://localhost:8081")
+@CrossOrigin("http://121.43.158.100:8081")
 public class FileUploadController {
 
     @Autowired
