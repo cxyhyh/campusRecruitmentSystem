@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Date;
 @RestController
 @RequestMapping("/skill")
-@CrossOrigin("http://121.43.158.100:8081")
+@CrossOrigin("http://121.43.158.100:8080")
 public class SkillController {
 
     @Autowired
